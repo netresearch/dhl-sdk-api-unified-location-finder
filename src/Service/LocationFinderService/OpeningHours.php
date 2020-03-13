@@ -37,6 +37,20 @@ class OpeningHours implements OpeningHoursInterface
      */
     private $validTo;
 
+    public function __construct(
+        string $dayOfWeek,
+        string $closes,
+        string $opens,
+        string $validFrom,
+        string $validTo
+    ) {
+        $this->dayOfWeek = $dayOfWeek;
+        $this->closes = $closes;
+        $this->opens = $opens;
+        $this->validFrom = $validFrom;
+        $this->validTo = $validTo;
+    }
+
     public function getDayOfWeek(): string
     {
         return $this->dayOfWeek;
