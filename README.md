@@ -1,4 +1,4 @@
-# DHL Paket Retoure API SDK
+# DPDHL Unified Location Finder API SDK
 
 The DPDHL Unified Location Finder API SDK package offers an interface to the following web services:
 
