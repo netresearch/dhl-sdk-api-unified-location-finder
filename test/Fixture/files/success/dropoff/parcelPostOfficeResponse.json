@@ -1,0 +1,754 @@
+{
+  "locations": [
+    {
+      "url": "/locations/8003-4008202",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4008202",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "502",
+        "type": "postoffice"
+      },
+      "name": "Postfiliale 502",
+      "distance": 26,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53113",
+          "addressLocality": "Bonn",
+          "streetAddress": "Charles-de-Gaulle-Str. 20"
+        },
+        "geo": {
+          "latitude": 50.7160101,
+          "longitude": 7.1298043
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "08:00:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4125075",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4125075",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "460",
+        "type": "servicepoint"
+      },
+      "name": "REWE Markt Peter Ziegler OHG",
+      "distance": 1486,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53225",
+          "addressLocality": "Bonn",
+          "streetAddress": "Küdinghovener Str. 141"
+        },
+        "geo": {
+          "latitude": 50.7292669,
+          "longitude": 7.1299616
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4126229",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4126229",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "512",
+        "type": "postoffice"
+      },
+      "name": "Lotto Neuber",
+      "distance": 1499,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53129",
+          "addressLocality": "Bonn",
+          "streetAddress": "Pützstr. 39"
+        },
+        "geo": {
+          "latitude": 50.7128469,
+          "longitude": 7.1094678
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "08:00:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "14:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "letter-service",
+        "packaging-material",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4123771",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4123771",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "478",
+        "type": "servicepoint"
+      },
+      "name": "REWE Markt GmbH",
+      "distance": 1718,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53129",
+          "addressLocality": "Bonn",
+          "streetAddress": "Pleimesstr. 3"
+        },
+        "geo": {
+          "latitude": 50.7060335,
+          "longitude": 7.1114271
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4123998",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4123998",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "503",
+        "type": "postoffice"
+      },
+      "name": "Postfiliale 503",
+      "distance": 1907,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53113",
+          "addressLocality": "Bonn",
+          "streetAddress": "Schumannstr. 42"
+        },
+        "geo": {
+          "latitude": 50.7243167,
+          "longitude": 7.1065987
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "10:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "14:30:00",
+          "closes": "17:30:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "14:30:00",
+          "closes": "17:30:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "14:30:00",
+          "closes": "17:30:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "14:30:00",
+          "closes": "17:30:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "14:30:00",
+          "closes": "17:30:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "13:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4117251",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4117251",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "622",
+        "type": "postoffice"
+      },
+      "name": "Postagentur Lotto Toto",
+      "distance": 2004,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53227",
+          "addressLocality": "Bonn",
+          "streetAddress": "Kirchstr. 33"
+        },
+        "geo": {
+          "latitude": 50.7293529,
+          "longitude": 7.1490287
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "14:30:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "14:30:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "14:30:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "14:30:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "letter-service",
+        "packaging-material",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4018572",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4018572",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "513",
+        "type": "postoffice"
+      },
+      "name": "TABAKWAREN / ZEITSCHRIFTEN BOHN",
+      "distance": 2007,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53175",
+          "addressLocality": "Bonn",
+          "streetAddress": "Annaberger Str. 145"
+        },
+        "geo": {
+          "latitude": 50.6979128,
+          "longitude": 7.1280141
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "14:30:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "14:30:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "14:30:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "14:30:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "14:30:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "13:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4126884",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4126884",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "403",
+        "type": "servicepoint"
+      },
+      "name": "Mensa Copy Print Center",
+      "distance": 2267,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53113",
+          "addressLocality": "Bonn",
+          "streetAddress": "Nassestr. 1"
+        },
+        "geo": {
+          "latitude": 50.7293022,
+          "longitude": 7.105938
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "12:00:00",
+          "closes": "15:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-60675",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-60675",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "518",
+        "type": "postoffice"
+      },
+      "name": "REWE Adrian OHG",
+      "distance": 2318,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53227",
+          "addressLocality": "Bonn",
+          "streetAddress": "Am Buschhof 19-21"
+        },
+        "geo": {
+          "latitude": 50.7139563,
+          "longitude": 7.1628163
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "08:00:00",
+          "closes": "13:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "13:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "13:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "13:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "13:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "13:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4136311",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4136311",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "671",
+        "type": "servicepoint"
+      },
+      "name": "Lottoshop im OBI",
+      "distance": 2499,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53175",
+          "addressLocality": "Bonn",
+          "streetAddress": "Godesberger Str. 63"
+        },
+        "geo": {
+          "latitude": 50.694268,
+          "longitude": 7.1396526
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "08:00:00",
+          "closes": "19:30:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "19:30:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "19:30:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "19:30:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "19:30:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "19:30:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    }
+  ]
+}

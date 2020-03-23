@@ -1,0 +1,3446 @@
+{
+  "locations": [
+    {
+      "url": "/locations/8003-4116282",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4116282",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "754",
+        "type": "servicepoint"
+      },
+      "name": "Uni Press Shop",
+      "distance": 224,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04229",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Zschochersche Str. 27"
+        },
+        "geo": {
+          "latitude": 51.3318172,
+          "longitude": 12.3386494
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4130547",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4130547",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "693",
+        "type": "servicepoint"
+      },
+      "name": "REWE Regiemarkt GmbH",
+      "distance": 416,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04229",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Zschochersche Str. 14"
+        },
+        "geo": {
+          "latitude": 51.3335931,
+          "longitude": 12.3391763
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4133645",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4133645",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "729",
+        "type": "servicepoint"
+      },
+      "name": "Andrés Einkaufs- u. Imbissshop",
+      "distance": 429,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04177",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Merseburger Str. 41"
+        },
+        "geo": {
+          "latitude": 51.3327115,
+          "longitude": 12.3322141
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4067005",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4067005",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "520",
+        "type": "postoffice"
+      },
+      "name": "Partnerfiliale Dt. Post AG",
+      "distance": 458,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04229",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Nonnenstr. 17"
+        },
+        "geo": {
+          "latitude": 51.3283449,
+          "longitude": 12.3427355
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4128296",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4128296",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "815",
+        "type": "servicepoint"
+      },
+      "name": "Zehnpunkteins GmbH",
+      "distance": 667,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04229",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Brockhausstr. 2"
+        },
+        "geo": {
+          "latitude": 51.3273741,
+          "longitude": 12.3453131
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:30:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:30:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:30:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:30:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:30:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4128891",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4128891",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "646",
+        "type": "postoffice"
+      },
+      "name": "Postfiliale 646",
+      "distance": 749,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04177",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Lindenauer Markt 2"
+        },
+        "geo": {
+          "latitude": 51.336847,
+          "longitude": 12.3356433
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "handicapped-access",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking"
+      ]
+    },
+    {
+      "url": "/locations/8003-4124907",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4124907",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "423",
+        "type": "servicepoint"
+      },
+      "name": "Tabak - Shop Gast",
+      "distance": 812,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04229",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Zschochersche Str. 82b"
+        },
+        "geo": {
+          "latitude": 51.3233992,
+          "longitude": 12.3324332
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "08:00:00",
+          "closes": "17:30:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "17:30:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "17:30:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "17:30:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "17:30:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "17:30:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4133384",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4133384",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "512",
+        "type": "postoffice"
+      },
+      "name": "Postfiliale  Schreibwaren Altlindenau",
+      "distance": 870,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04177",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Merseburger Str. 85"
+        },
+        "geo": {
+          "latitude": 51.3362593,
+          "longitude": 12.3290263
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4130192",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4130192",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "473",
+        "type": "servicepoint"
+      },
+      "name": "toom Baumarkt GmbH",
+      "distance": 880,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04229",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Gießerstr. 37-39"
+        },
+        "geo": {
+          "latitude": 51.3240865,
+          "longitude": 12.3287358
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4130798",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4130798",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "463",
+        "type": "postoffice"
+      },
+      "name": "Retro Repro",
+      "distance": 950,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04229",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Könneritzstr. 62"
+        },
+        "geo": {
+          "latitude": 51.32248,
+          "longitude": 12.3427967
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "13:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "letter-service",
+        "packaging-material",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking"
+      ]
+    },
+    {
+      "url": "/locations/8003-4136895",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4136895",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "744",
+        "type": "servicepoint"
+      },
+      "name": "REWE Awischus OHG",
+      "distance": 1238,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04229",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Antonienstr. 19"
+        },
+        "geo": {
+          "latitude": 51.3201367,
+          "longitude": 12.3290973
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-62251",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-62251",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "515",
+        "type": "postoffice"
+      },
+      "name": "Konsum Leipzig eG",
+      "distance": 1260,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04179",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Lützner Str. 162"
+        },
+        "geo": {
+          "latitude": 51.3316736,
+          "longitude": 12.3189161
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:30:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:30:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:30:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:30:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:30:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "07:30:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [
+        {
+          "type": "closure",
+          "fromDate": "2020-05-06",
+          "toDate": "2020-09-03"
+        }
+      ],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4121452",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4121452",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "734",
+        "type": "servicepoint"
+      },
+      "name": "Beckel Optik",
+      "distance": 1353,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04229",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Antonienstr. 43"
+        },
+        "geo": {
+          "latitude": 51.3202715,
+          "longitude": 12.3255162
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4127694",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4127694",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "749",
+        "type": "servicepoint"
+      },
+      "name": "Pfennigpfeiffer",
+      "distance": 1371,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04229",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Klingenstr. 40"
+        },
+        "geo": {
+          "latitude": 51.320877,
+          "longitude": 12.3238772
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "08:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "14:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4128623",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4128623",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "675",
+        "type": "postoffice"
+      },
+      "name": "Schreib- und Spielwaren Lotto Post",
+      "distance": 2145,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04105",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Waldstr. 26"
+        },
+        "geo": {
+          "latitude": 51.3439301,
+          "longitude": 12.3583703
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "letter-service",
+        "packaging-material",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4124955",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4124955",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "682",
+        "type": "servicepoint"
+      },
+      "name": "REWE Mandy Bronsert oHG",
+      "distance": 2243,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04109",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Elsterstr. 22"
+        },
+        "geo": {
+          "latitude": 51.3405229,
+          "longitude": 12.3644284
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4117411",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4117411",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "502",
+        "type": "postoffice"
+      },
+      "name": "Schreibwaren Zeitungen Postagentur",
+      "distance": 2260,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04109",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Lessingstr. 32"
+        },
+        "geo": {
+          "latitude": 51.3424138,
+          "longitude": 12.3626884
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "letter-service",
+        "packaging-material",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4136380",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4136380",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "443",
+        "type": "servicepoint"
+      },
+      "name": "Mein Kabelmann Leipzig GmbH",
+      "distance": 2403,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04109",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Käthe-Kollwitz-Str. 15"
+        },
+        "geo": {
+          "latitude": 51.3406408,
+          "longitude": 12.3669824
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "14:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4099644",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4099644",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "450",
+        "type": "servicepoint"
+      },
+      "name": "Kabel Deutschland Medienberatung",
+      "distance": 2495,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04179",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Georg-Schwarz-Str. 136"
+        },
+        "geo": {
+          "latitude": 51.3475879,
+          "longitude": 12.3143146
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4085392",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4085392",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "620",
+        "type": "postoffice"
+      },
+      "name": "Mein Rot(h)stift",
+      "distance": 2525,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04107",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Karl-Liebknecht-Str. 14"
+        },
+        "geo": {
+          "latitude": 51.3298526,
+          "longitude": 12.3730492
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "14:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4124995",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4124995",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "492",
+        "type": "servicepoint"
+      },
+      "name": "REWE Regiemarkt GmbH",
+      "distance": 2526,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04209",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Grünauer Allee 38"
+        },
+        "geo": {
+          "latitude": 51.3202677,
+          "longitude": 12.3042068
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4133391",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4133391",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "452",
+        "type": "servicepoint"
+      },
+      "name": "Telco Shop Leipzig",
+      "distance": 2712,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04275",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Karl-Liebknecht-Str. 78"
+        },
+        "geo": {
+          "latitude": 51.3216124,
+          "longitude": 12.3732765
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        }
+      ],
+      "closurePeriods": [
+        {
+          "type": "holiday",
+          "fromDate": "2020-04-01",
+          "toDate": "2020-04-10"
+        }
+      ],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4135329",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4135329",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "697",
+        "type": "servicepoint"
+      },
+      "name": "REWE Regiemarkt GmbH",
+      "distance": 2756,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04109",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Petersstr. 50"
+        },
+        "geo": {
+          "latitude": 51.3368017,
+          "longitude": 12.374919
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4079294",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4079294",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "516",
+        "type": "postoffice"
+      },
+      "name": "Bestellannahme",
+      "distance": 2812,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04179",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Georg-Schwarz-Str. 141"
+        },
+        "geo": {
+          "latitude": 51.3490947,
+          "longitude": 12.3101182
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "13:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4099870",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4099870",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "451",
+        "type": "servicepoint"
+      },
+      "name": "IHRE Drogerie",
+      "distance": 2813,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04275",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Kochstr. 66"
+        },
+        "geo": {
+          "latitude": 51.3169293,
+          "longitude": 12.3712225
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "13:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4119251",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4119251",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "845",
+        "type": "servicepoint"
+      },
+      "name": "ELAN-Station",
+      "distance": 2828,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04179",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Schomburgkstr. 8"
+        },
+        "geo": {
+          "latitude": 51.3395352,
+          "longitude": 12.2991185
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "05:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "05:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "05:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "05:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "05:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "06:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4086730",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4086730",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "503",
+        "type": "postbank"
+      },
+      "name": "Postbank Filiale",
+      "distance": 2938,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04109",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Brühl 8"
+        },
+        "geo": {
+          "latitude": 51.3430605,
+          "longitude": 12.3736056
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "14:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "postbank",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4111598",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4111598",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "501",
+        "type": "postoffice"
+      },
+      "name": "Geschenke",
+      "distance": 2974,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04107",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Windmühlenstr. 22-26"
+        },
+        "geo": {
+          "latitude": 51.331352,
+          "longitude": 12.3794568
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4087280",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4087280",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "667",
+        "type": "postoffice"
+      },
+      "name": "Lotto",
+      "distance": 3042,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04275",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Arthur-Hoffmann-Str. 78"
+        },
+        "geo": {
+          "latitude": 51.3217673,
+          "longitude": 12.3783666
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "12:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "12:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "12:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "12:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "12:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "15:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking"
+      ]
+    },
+    {
+      "url": "/locations/8003-4136495",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4136495",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "733",
+        "type": "servicepoint"
+      },
+      "name": "Gwuni Mopera",
+      "distance": 3049,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04103",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Sternwartenstr. 4-6"
+        },
+        "geo": {
+          "latitude": 51.3350911,
+          "longitude": 12.379867
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [
+        {
+          "type": "closure",
+          "fromDate": "2020-04-01",
+          "toDate": "2020-09-03"
+        }
+      ],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4109413",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4109413",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "704",
+        "type": "servicepoint"
+      },
+      "name": "Blumen-Dröhne",
+      "distance": 3106,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04105",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Löhrstr. 15"
+        },
+        "geo": {
+          "latitude": 51.3462997,
+          "longitude": 12.3731965
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "11:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4078909",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4078909",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "523",
+        "type": "postbank"
+      },
+      "name": "Postbank Filiale",
+      "distance": 3116,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04277",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Karl-Liebknecht-Str. 143"
+        },
+        "geo": {
+          "latitude": 51.3142582,
+          "longitude": 12.3736403
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:30:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postbank",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4134509",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4134509",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "522",
+        "type": "postoffice"
+      },
+      "name": "Postfiliale  Schreibwaren im Kaufland",
+      "distance": 3153,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04249",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Anton-Zickmantel-Str. 42"
+        },
+        "geo": {
+          "latitude": 51.3031821,
+          "longitude": 12.3229517
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "13:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "letter-service",
+        "packaging-material",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4097257",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4097257",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "434",
+        "type": "servicepoint"
+      },
+      "name": "Fernseh Zinn",
+      "distance": 3167,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04249",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Dieskaustr. 197"
+        },
+        "geo": {
+          "latitude": 51.302218,
+          "longitude": 12.3281541
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4132273",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4132273",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "670",
+        "type": "servicepoint"
+      },
+      "name": "Bodies Leipzig",
+      "distance": 3194,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04275",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Kantstr. 30"
+        },
+        "geo": {
+          "latitude": 51.315624,
+          "longitude": 12.3763459
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "12:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "12:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "12:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "12:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "11:00:00",
+          "closes": "16:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4136788",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4136788",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "436",
+        "type": "postoffice"
+      },
+      "name": "Tabak und Servicepoint Theaterpassage",
+      "distance": 3199,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04109",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Goethestr. 2"
+        },
+        "geo": {
+          "latitude": 51.3399188,
+          "longitude": 12.3800054
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "10:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "handicapped-access",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4120063",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4120063",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "710",
+        "type": "servicepoint"
+      },
+      "name": "Unternehmensgruppe Dr. Eckert GmbH",
+      "distance": 3203,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04249",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Anton-Zickmantel-Str. 44"
+        },
+        "geo": {
+          "latitude": 51.3027462,
+          "longitude": 12.3227686
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "15:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4128915",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4128915",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "811",
+        "type": "servicepoint"
+      },
+      "name": "Selbstlagerbox GmbH",
+      "distance": 3206,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04178",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Ludwig-Hupfeld-Str. 16"
+        },
+        "geo": {
+          "latitude": 51.3482424,
+          "longitude": 12.3010179
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "13:30:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "13:30:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "13:30:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "13:30:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "13:30:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "16:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4121623",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4121623",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "852",
+        "type": "servicepoint"
+      },
+      "name": "Wildwuchs",
+      "distance": 3223,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04103",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Sternwartenstr. 20"
+        },
+        "geo": {
+          "latitude": 51.3342437,
+          "longitude": 12.3826103
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:30:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:30:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:30:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:30:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:30:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "08:30:00",
+          "closes": "12:30:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4065880",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4065880",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "662",
+        "type": "postoffice"
+      },
+      "name": "Eckert im Hauptbahnhof/ Untergeschoß",
+      "distance": 3449,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04109",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Willy-Brandt-Platz 5"
+        },
+        "geo": {
+          "latitude": 51.344409,
+          "longitude": 12.3807866
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "21:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "21:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "21:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "21:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "21:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "21:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4099043",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4099043",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "441",
+        "type": "servicepoint"
+      },
+      "name": "EP: Schwella FERNSEH-SERVICE am Kreuz",
+      "distance": 3469,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04277",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Wolfgang-Heinze-Str. 14"
+        },
+        "geo": {
+          "latitude": 51.3087411,
+          "longitude": 12.3729901
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "10:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4129733",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4129733",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "401",
+        "type": "servicepoint"
+      },
+      "name": "REWE Frank Tätzner OHG",
+      "distance": 3824,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04155",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Breitenfelder Str. 1a"
+        },
+        "geo": {
+          "latitude": 51.3610836,
+          "longitude": 12.3607918
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4129207",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4129207",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "663",
+        "type": "postoffice"
+      },
+      "name": "Schreibwaren, Geschenkartikel, Bücher u.",
+      "distance": 3828,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04277",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Pfeffingerstr. 18"
+        },
+        "geo": {
+          "latitude": 51.3076833,
+          "longitude": 12.3784034
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "letter-service",
+        "packaging-material",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4135079",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4135079",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "487",
+        "type": "servicepoint"
+      },
+      "name": "Jihan Travel  Transport",
+      "distance": 4051,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04155",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Georg-Schumann-Str. 135"
+        },
+        "geo": {
+          "latitude": 51.3638925,
+          "longitude": 12.3587031
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:30:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [
+        {
+          "type": "closure",
+          "fromDate": "2020-03-11",
+          "toDate": "2020-09-03"
+        }
+      ],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4133085",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4133085",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "446",
+        "type": "servicepoint"
+      },
+      "name": "@Online",
+      "distance": 4078,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04159",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Georg-Schumann-Str. 185"
+        },
+        "geo": {
+          "latitude": 51.3658403,
+          "longitude": 12.3502277
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "17:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "15:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-4091153",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4091153",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "511",
+        "type": "postoffice"
+      },
+      "name": "Schreibwaren",
+      "distance": 4158,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04159",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Georg-Schumann-Str. 227"
+        },
+        "geo": {
+          "latitude": 51.3672301,
+          "longitude": 12.3444029
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4125047",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4125047",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "456",
+        "type": "servicepoint"
+      },
+      "name": "REWE Regiemarkt GmbH",
+      "distance": 4167,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04155",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Georg-Schumann-Str. 60"
+        },
+        "geo": {
+          "latitude": 51.3619773,
+          "longitude": 12.3683637
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off",
+        "parcel:pick-up"
+      ]
+    },
+    {
+      "url": "/locations/8003-14451",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-14451",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "505",
+        "type": "postbank"
+      },
+      "name": "Postbank Filiale",
+      "distance": 4288,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04155",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Lützowstr. 13a"
+        },
+        "geo": {
+          "latitude": 51.3621763,
+          "longitude": 12.3710959
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "19:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "13:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "handicapped-access",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postbank",
+        "postident"
+      ]
+    },
+    {
+      "url": "/locations/8003-4125812",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4125812",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "563",
+        "type": "postoffice"
+      },
+      "name": "k kiosk",
+      "distance": 4806,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04159",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Georg-Schumann-Str. 290"
+        },
+        "geo": {
+          "latitude": 51.3730475,
+          "longitude": 12.3286799
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "08:00:00",
+          "closes": "20:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "handicapped-access",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking"
+      ]
+    },
+    {
+      "url": "/locations/8003-4080224",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8003-4080224",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "Postfiliale",
+        "keywordId": "510",
+        "type": "postoffice"
+      },
+      "name": "Bestellshop",
+      "distance": 5100,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04159",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Georg-Schumann-Str. 361"
+        },
+        "geo": {
+          "latitude": 51.3750166,
+          "longitude": 12.3217856
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "12:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "14:00:00",
+          "closes": "18:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "09:00:00",
+          "closes": "11:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "age-verification",
+        "cash-on-delivery",
+        "letter-service",
+        "parcel:drop-off",
+        "parcel:pick-up",
+        "parking",
+        "postident"
+      ]
+    }
+  ]
+}

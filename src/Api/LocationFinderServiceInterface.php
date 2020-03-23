@@ -30,8 +30,8 @@ interface LocationFinderServiceInterface
      * @param string $city
      * @param string $street
      * @param string $service
-     * @param int $radius
-     * @param int $limit
+     * @param int|null $radius
+     * @param int|null $limit
      *
      * @return LocationInterface[]
      * @throws AuthenticationException
@@ -44,8 +44,8 @@ interface LocationFinderServiceInterface
         string $city = '',
         string $street = '',
         string $service = self::SERVICE_PARCEL,
-        int $radius = 500,
-        int $limit = 20
+        int $radius = null,
+        int $limit = null
     );
 
     /**
@@ -54,8 +54,8 @@ interface LocationFinderServiceInterface
      * @param float $latitude
      * @param float $longitude
      * @param string $service
-     * @param int $radius
-     * @param int $limit
+     * @param int|null $radius
+     * @param int|null $limit
      *
      * @return LocationInterface[]
      * @throws AuthenticationException
@@ -66,8 +66,8 @@ interface LocationFinderServiceInterface
         float $latitude,
         float $longitude,
         string $service = self::SERVICE_PARCEL,
-        int $radius = 500,
-        int $limit = 20
+        int $radius = null,
+        int $limit = null
     );
 
     /**
@@ -78,8 +78,8 @@ interface LocationFinderServiceInterface
      * @param string $city
      * @param string $street
      * @param string $service
-     * @param int $radius
-     * @param int $limit
+     * @param int|null $radius
+     * @param int|null $limit
      *
      * @return LocationInterface[]
      * @throws AuthenticationException
@@ -92,8 +92,8 @@ interface LocationFinderServiceInterface
         string $city = '',
         string $street = '',
         string $service = self::SERVICE_PARCEL,
-        int $radius = 500,
-        int $limit = 20
+        int $radius = null,
+        int $limit = null
     );
 
     /**
@@ -102,9 +102,10 @@ interface LocationFinderServiceInterface
      * @param float $latitude
      * @param float $longitude
      * @param string $service
-     * @param int $radius
-     * @param int $limit
-     * @return array
+     * @param int|null $radius
+     * @param int|null $limit
+     *
+     * @return LocationInterface[]
      * @throws AuthenticationException
      * @throws DetailedServiceException
      * @throws ServiceException
@@ -113,7 +114,7 @@ interface LocationFinderServiceInterface
         float $latitude,
         float $longitude,
         string $service = self::SERVICE_PARCEL,
-        int $radius = 500,
-        int $limit = 20
+        int $radius = null,
+        int $limit = null
     );
 }

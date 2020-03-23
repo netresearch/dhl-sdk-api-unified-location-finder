@@ -1,0 +1,1424 @@
+{
+  "locations": [
+    {
+      "url": "/locations/8007-404229142",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404229142",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "142",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 142",
+      "distance": 472,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04229",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Zschochersche Str. 42"
+        },
+        "geo": {
+          "latitude": 51.3301558,
+          "longitude": 12.3368311
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404229155",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404229155",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "155",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 155",
+      "distance": 907,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04229",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Zschochersche Str. 82"
+        },
+        "geo": {
+          "latitude": 51.3239781,
+          "longitude": 12.3325575
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404179138",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404179138",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "138",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 138",
+      "distance": 1695,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04179",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Lützner Str. 162"
+        },
+        "geo": {
+          "latitude": 51.3319331,
+          "longitude": 12.3194192
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404109105",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404109105",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "105",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 105",
+      "distance": 1856,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04109",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Friedrich-Ebert-Str. 10"
+        },
+        "geo": {
+          "latitude": 51.3360766,
+          "longitude": 12.3670501
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404107144",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404107144",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "144",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 144",
+      "distance": 2028,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04107",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Braustr. 26"
+        },
+        "geo": {
+          "latitude": 51.326425,
+          "longitude": 12.3720485
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404179110",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404179110",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "110",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 110",
+      "distance": 2670,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04179",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Georg-Schwarz-Str. 95"
+        },
+        "geo": {
+          "latitude": 51.3461478,
+          "longitude": 12.3169054
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404103141",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404103141",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "141",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 141",
+      "distance": 2691,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04103",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Nürnberger Str. 48"
+        },
+        "geo": {
+          "latitude": 51.3320219,
+          "longitude": 12.3814162
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404209154",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404209154",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "154",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 154",
+      "distance": 2843,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04209",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Grünauer Allee 38"
+        },
+        "geo": {
+          "latitude": 51.3203064,
+          "longitude": 12.3046488
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404277107",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404277107",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "107",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 107",
+      "distance": 2873,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04277",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Bernhard-Göring-Str. 142"
+        },
+        "geo": {
+          "latitude": 51.3133631,
+          "longitude": 12.3763636
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404103156",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404103156",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "156",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 156",
+      "distance": 3066,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04103",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Tarostr. 2"
+        },
+        "geo": {
+          "latitude": 51.3259204,
+          "longitude": 12.3869556
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404103146",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404103146",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "146",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 146",
+      "distance": 3108,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04103",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Schützenstr. 2"
+        },
+        "geo": {
+          "latitude": 51.3402974,
+          "longitude": 12.3837322
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "06:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "06:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "06:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "06:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "06:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "06:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "06:00:00",
+          "closes": "22:00:00",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404105101",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404105101",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "101",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 101",
+      "distance": 3115,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04105",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Gerberstr. 18"
+        },
+        "geo": {
+          "latitude": 51.3464637,
+          "longitude": 12.3777121
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404103106",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404103106",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "106",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 106",
+      "distance": 3327,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04103",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Straße des 18. Oktober 29"
+        },
+        "geo": {
+          "latitude": 51.324856,
+          "longitude": 12.3905212
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404317104",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404317104",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "104",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 104",
+      "distance": 3923,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04317",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Gabelsbergerstr. 19"
+        },
+        "geo": {
+          "latitude": 51.3409055,
+          "longitude": 12.3959823
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404155143",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404155143",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "143",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 143",
+      "distance": 4050,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04155",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Georg-Schumann-Str. 105-109"
+        },
+        "geo": {
+          "latitude": 51.3630044,
+          "longitude": 12.362544
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404277159",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404277159",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "159",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 159",
+      "distance": 4126,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04277",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Zwickauer Str. 66"
+        },
+        "geo": {
+          "latitude": 51.3108754,
+          "longitude": 12.395098
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404155102",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404155102",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "102",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 102",
+      "distance": 4145,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04155",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Lützowstr. 9-13"
+        },
+        "geo": {
+          "latitude": 51.3617019,
+          "longitude": 12.3707174
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404105148",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404105148",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "148",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 148",
+      "distance": 4260,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04105",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Blochmannstr. 2-6"
+        },
+        "geo": {
+          "latitude": 51.3602982,
+          "longitude": 12.3776532
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404159145",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404159145",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "145",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 145",
+      "distance": 4398,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04159",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Dantestr. 17"
+        },
+        "geo": {
+          "latitude": 51.3681836,
+          "longitude": 12.3456019
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-404157151",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-404157151",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "151",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 151",
+      "distance": 5453,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "04157",
+          "addressLocality": "Leipzig",
+          "streetAddress": "Max-Liebermann-Str. 102"
+        },
+        "geo": {
+          "latitude": 51.3759152,
+          "longitude": 12.3640702
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    }
+  ]
+}

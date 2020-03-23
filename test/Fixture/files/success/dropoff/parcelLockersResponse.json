@@ -1,0 +1,709 @@
+{
+  "locations": [
+    {
+      "url": "/locations/8007-453113145",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-453113145",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "145",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 145",
+      "distance": 52,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53113",
+          "addressLocality": "Bonn",
+          "streetAddress": "Charles-de-Gaulle-Str. 20"
+        },
+        "geo": {
+          "latitude": 50.715672,
+          "longitude": 7.1295047
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-453113150",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-453113150",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "150",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 150",
+      "distance": 292,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53113",
+          "addressLocality": "Bonn",
+          "streetAddress": "Sträßchensweg 10"
+        },
+        "geo": {
+          "latitude": 50.7135379,
+          "longitude": 7.131924
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-453113139",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-453113139",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "139",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 139",
+      "distance": 315,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53113",
+          "addressLocality": "Bonn",
+          "streetAddress": "Heinrich-Brüning-Str. 5"
+        },
+        "geo": {
+          "latitude": 50.7159397,
+          "longitude": 7.1256753
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-453113802",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-453113802",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "802",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 802",
+      "distance": 800,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53113",
+          "addressLocality": "Bonn",
+          "streetAddress": "Karl-Marx-Str. 11"
+        },
+        "geo": {
+          "latitude": 50.7091023,
+          "longitude": 7.1264873
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-453129148",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-453129148",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "148",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 148",
+      "distance": 1415,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53129",
+          "addressLocality": "Bonn",
+          "streetAddress": "Reuterstr. 122"
+        },
+        "geo": {
+          "latitude": 50.7197891,
+          "longitude": 7.1110511
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "low"
+    },
+    {
+      "url": "/locations/8007-453129162",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-453129162",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "162",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 162",
+      "distance": 1636,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53129",
+          "addressLocality": "Bonn",
+          "streetAddress": "Hausdorffstr. 190"
+        },
+        "geo": {
+          "latitude": 50.7103965,
+          "longitude": 7.1086617
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-453227167",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-453227167",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "167",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 167",
+      "distance": 2341,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53227",
+          "addressLocality": "Bonn",
+          "streetAddress": "Maarstr. 48"
+        },
+        "geo": {
+          "latitude": 50.7367634,
+          "longitude": 7.1345578
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "07:00:00",
+          "closes": "21:00:00",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "21:00:00",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "21:00:00",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "21:00:00",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "21:00:00",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "07:00:00",
+          "closes": "21:00:00",
+          "dayOfWeek": "http://schema.org/Saturday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-453175111",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-453175111",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "111",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 111",
+      "distance": 2458,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53175",
+          "addressLocality": "Bonn",
+          "streetAddress": "Godesberger Allee 57"
+        },
+        "geo": {
+          "latitude": 50.6952159,
+          "longitude": 7.1423449
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    },
+    {
+      "url": "/locations/8007-453175144",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-453175144",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "144",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 144",
+      "distance": 2481,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53175",
+          "addressLocality": "Bonn",
+          "streetAddress": "Godesberger Str. 63"
+        },
+        "geo": {
+          "latitude": 50.6944664,
+          "longitude": 7.1397775
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "low"
+    },
+    {
+      "url": "/locations/8007-453225146",
+      "location": {
+        "ids": [
+          {
+            "locationId": "8007-453225146",
+            "provider": "parcel"
+          }
+        ],
+        "keyword": "DHL Packstation",
+        "keywordId": "146",
+        "type": "locker"
+      },
+      "name": "DHL Packstation 146",
+      "distance": 2488,
+      "place": {
+        "address": {
+          "countryCode": "DE",
+          "postalCode": "53225",
+          "addressLocality": "Bonn",
+          "streetAddress": "Beueler Bahnhofsplatz 1"
+        },
+        "geo": {
+          "latitude": 50.7382028,
+          "longitude": 7.1273251
+        }
+      },
+      "openingHours": [
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Monday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Tuesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Wednesday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Thursday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Friday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Saturday"
+        },
+        {
+          "opens": "00:00:00",
+          "closes": "23:59:59",
+          "dayOfWeek": "http://schema.org/Sunday"
+        }
+      ],
+      "closurePeriods": [],
+      "serviceTypes": [
+        "parcel:drop-off-unregistered",
+        "parcel:pick-up-registered"
+      ],
+      "availableCapacity": "high"
+    }
+  ]
+}
