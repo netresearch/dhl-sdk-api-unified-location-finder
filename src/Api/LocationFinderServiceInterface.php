@@ -18,9 +18,9 @@ use Dhl\Sdk\UnifiedLocationFinder\Exception\ServiceException;
  */
 interface LocationFinderServiceInterface
 {
-    const SERVICE_PARCEL = 'service_parcel';
+    const SERVICE_PARCEL = 'parcel-eu';
 
-    const SERVICE_EXPRESS = 'service_express';
+    const SERVICE_EXPRESS = 'express';
 
     /**
      * Find pickup locations by given address for a given carrier (DHL Paket, DHL Express).
@@ -46,7 +46,7 @@ interface LocationFinderServiceInterface
         string $service = self::SERVICE_PARCEL,
         int $radius = null,
         int $limit = null
-    );
+    ): array;
 
     /**
      * Find pickup locations by given coordinates for a given carrier (DHL Paket, DHL Express).
@@ -68,7 +68,7 @@ interface LocationFinderServiceInterface
         string $service = self::SERVICE_PARCEL,
         int $radius = null,
         int $limit = null
-    );
+    ): array;
 
     /**
      * Find drop-off locations by given address for a given carrier (DHL Paket, DHL Express).
@@ -94,7 +94,7 @@ interface LocationFinderServiceInterface
         string $service = self::SERVICE_PARCEL,
         int $radius = null,
         int $limit = null
-    );
+    ): array;
 
     /**
      * Find drop-off locations by given coordinates for a given carrier (DHL Paket, DHL Express).
@@ -116,5 +116,5 @@ interface LocationFinderServiceInterface
         string $service = self::SERVICE_PARCEL,
         int $radius = null,
         int $limit = null
-    );
+    ): array;
 }

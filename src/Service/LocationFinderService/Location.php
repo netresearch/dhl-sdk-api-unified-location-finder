@@ -65,6 +65,20 @@ class Location implements LocationInterface
      */
     private $services;
 
+    /**
+     * Location constructor.
+     *
+     * @param string $id
+     * @param string $type
+     * @param int $distanceInMeter
+     * @param string $name
+     * @param string $number
+     * @param GeoInterface $geo
+     * @param AddressInterface $address
+     * @param OpeningHoursInterface[] $openingHours
+     * @param OpeningHoursInterface[] $specialOpeningHours
+     * @param string[] $services
+     */
     public function __construct(
         string $id,
         string $type,
