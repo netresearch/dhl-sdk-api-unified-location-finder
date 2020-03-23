@@ -12,6 +12,7 @@ The DPDHL Unified Location Finder API SDK package offers an interface to the fol
 
 ### Package Requirements
 
+- `netresearch/jsonmapper`: Mapper for deserialization of JSON response messages into PHP objects
 - `php-http/discovery`: Discovery service for HTTP client and message factory implementations
 - `php-http/httplug`: Pluggable HTTP client abstraction
 - `php-http/logger-plugin`: HTTP client logger plugin for HTTPlug
@@ -66,7 +67,7 @@ The library's components suitable for consumption comprise of
   * service factory
   * location finder service
 * data transfer objects:
-  * service point location
+  * service point location with address, geo coordinates, opening hours specifications
 
 ## Usage
 
