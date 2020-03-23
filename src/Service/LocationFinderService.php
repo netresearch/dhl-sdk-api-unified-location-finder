@@ -18,19 +18,19 @@ use Dhl\Sdk\UnifiedLocationFinder\Exception\ServiceException;
 use Dhl\Sdk\UnifiedLocationFinder\Exception\ServiceExceptionFactory;
 use Dhl\Sdk\UnifiedLocationFinder\Model\LocationResponseMapper;
 use Dhl\Sdk\UnifiedLocationFinder\Serializer\JsonSerializer;
-use Http\Client\Exception as HttpClientException;
-use Http\Client\HttpClient;
-use Http\Message\RequestFactory;
+use Psr\Http\Client\ClientExceptionInterface;
+use Psr\Http\Client\ClientInterface;
+use Psr\Http\Message\RequestFactoryInterface;
 
 class LocationFinderService implements LocationFinderServiceInterface
 {
     /**
-     * @var HttpClient
+     * @var ClientInterface
      */
     private $client;
 
     /**
-     * @var RequestFactory
+     * @var RequestFactoryInterface
      */
     private $requestFactory;
 
@@ -45,8 +45,8 @@ class LocationFinderService implements LocationFinderServiceInterface
     private $responseMapper;
 
     public function __construct(
-        HttpClient $client,
-        RequestFactory $requestFactory,
+        ClientInterface $client,
+        RequestFactoryInterface $requestFactory,
         JsonSerializer $serializer,
         LocationResponseMapper $responseMapper
     ) {
@@ -79,7 +79,7 @@ class LocationFinderService implements LocationFinderServiceInterface
             throw ServiceExceptionFactory::createAuthenticationException($exception);
         } catch (DetailedErrorException $exception) {
             throw ServiceExceptionFactory::createDetailedServiceException($exception);
-        } catch (HttpClientException $exception) {
+        } catch (ClientExceptionInterface $exception) {
             throw ServiceExceptionFactory::createServiceException($exception);
         } catch (\Throwable $exception) {
             throw ServiceExceptionFactory::create($exception);

@@ -13,10 +13,10 @@ namespace Dhl\Sdk\UnifiedLocationFinder\Api\Data;
  */
 interface LocationInterface
 {
-    const TYPE_SERVICEPOINT = 'servicepoint';
-    const TYPE_LOCKER = 'locker';
-    const TYPE_POSTOFFICE = 'postoffice';
-    const TYPE_POSTBANK = 'postbank';
+    public const TYPE_SERVICEPOINT = 'servicepoint';
+    public const TYPE_LOCKER = 'locker';
+    public const TYPE_POSTOFFICE = 'postoffice';
+    public const TYPE_POSTBANK = 'postbank';
 
     /**
      * @return string

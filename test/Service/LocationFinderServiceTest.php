@@ -20,7 +20,7 @@ use Http\Client\Exception\HttpException;
 use Http\Client\Exception\NetworkException;
 use Http\Client\Exception\RequestException;
 use Http\Client\Exception\TransferException;
-use Http\Discovery\MessageFactoryDiscovery;
+use Http\Discovery\Psr17FactoryDiscovery;
 use Http\Mock\Client;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\Test\TestLogger;
@@ -32,8 +32,7 @@ class LocationFinderServiceTest extends TestCase
      */
     public function exceptionProvider(): array
     {
-        $messageFactory = MessageFactoryDiscovery::find();
-
+        $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
         $request = $messageFactory->createRequest('GET', 'www');
 
         return [
@@ -175,13 +174,14 @@ class LocationFinderServiceTest extends TestCase
 
         $logger = new TestLogger();
         $client = new Client();
-        $messageFactory = MessageFactoryDiscovery::find();
-        $httpResponse = $messageFactory->createResponse(
-            $response['status'],
-            $response['title'],
-            ['Content-Type' => 'application/json',],
-            $jsonResponse
-        );
+
+        $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
+        $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
+
+        $httpResponse = $messageFactory
+            ->createResponse($response['status'], $response['title'])
+            ->withHeader('Content-Type', 'application/json')
+            ->withBody($streamFactory->createStream($jsonResponse));
 
         $client->setDefaultResponse($httpResponse);
 
@@ -211,17 +211,24 @@ class LocationFinderServiceTest extends TestCase
      * @param string $postOfficesResponse
      * @throws ServiceException
      */
-    public function findParcelPickupLocations(string $lockersResponse, string $postOfficesResponse)
+    public function findParcelPickupLocations(string $lockersResponse, string $postOfficesResponse): void
     {
-        $messageFactory = MessageFactoryDiscovery::find();
+        $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
+        $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
 
         $logger = new TestLogger();
         $client = new Client();
         $client->addResponse(
-            $messageFactory->createResponse(200, 'OK', ['Content-Type' => 'application/json'], $lockersResponse)
+            $messageFactory
+                ->createResponse(200, 'OK')
+                ->withBody($streamFactory->createStream($lockersResponse))
+                ->withHeader('Content-Type', 'application/json')
         );
         $client->addResponse(
-            $messageFactory->createResponse(200, 'OK', ['Content-Type' => 'application/json'], $postOfficesResponse)
+            $messageFactory
+                ->createResponse(200, 'OK')
+                ->withBody($streamFactory->createStream($postOfficesResponse))
+                ->withHeader('Content-Type', 'application/json')
         );
 
         $serviceFactory = new HttpServiceFactory($client);
@@ -287,12 +294,17 @@ class LocationFinderServiceTest extends TestCase
      */
     public function findExpressPickupLocations(string $jsonResponse)
     {
-        $messageFactory = MessageFactoryDiscovery::find();
-        $response = $messageFactory->createResponse(200, 'OK', ['Content-Type' => 'application/json'], $jsonResponse);
+        $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
+        $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
 
         $logger = new TestLogger();
         $client = new Client();
-        $client->addResponse($response);
+        $client->addResponse(
+            $messageFactory
+                ->createResponse(200, 'OK')
+                ->withBody($streamFactory->createStream($jsonResponse))
+                ->withHeader('Content-Type', 'application/json')
+        );
 
         $serviceFactory = new HttpServiceFactory($client);
         $service = $serviceFactory->createLocationFinderService('FOO_KEY', $logger);
@@ -339,15 +351,22 @@ class LocationFinderServiceTest extends TestCase
      */
     public function findParcelDropOffLocations(string $postOfficesResponse, string $lockersResponse)
     {
-        $messageFactory = MessageFactoryDiscovery::find();
+        $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
+        $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
 
         $logger = new TestLogger();
         $client = new Client();
         $client->addResponse(
-            $messageFactory->createResponse(200, 'OK', ['Content-Type' => 'application/json'], $lockersResponse)
+            $messageFactory
+                ->createResponse(200, 'OK')
+                ->withBody($streamFactory->createStream($lockersResponse))
+                ->withHeader('Content-Type', 'application/json')
         );
         $client->addResponse(
-            $messageFactory->createResponse(200, 'OK', ['Content-Type' => 'application/json'], $postOfficesResponse)
+            $messageFactory
+                ->createResponse(200, 'OK')
+                ->withBody($streamFactory->createStream($postOfficesResponse))
+                ->withHeader('Content-Type', 'application/json')
         );
 
         $serviceFactory = new HttpServiceFactory($client);
@@ -413,12 +432,18 @@ class LocationFinderServiceTest extends TestCase
      */
     public function findExpressDropOffLocations(string $jsonResponse)
     {
-        $messageFactory = MessageFactoryDiscovery::find();
-        $response = $messageFactory->createResponse(200, 'OK', ['Content-Type' => 'application/json'], $jsonResponse);
+        $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
+        $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
 
         $logger = new TestLogger();
         $client = new Client();
-        $client->addResponse($response);
+
+        $client->addResponse(
+            $messageFactory
+                ->createResponse(200, 'OK')
+                ->withBody($streamFactory->createStream($jsonResponse))
+                ->withHeader('Content-Type', 'application/json')
+        );
 
         $serviceFactory = new HttpServiceFactory($client);
         $service = $serviceFactory->createLocationFinderService('FOO_KEY', $logger);
@@ -463,15 +488,22 @@ class LocationFinderServiceTest extends TestCase
      */
     public function findPickUpLocationsByGeo(string $lockersResponse, string $postOfficesResponse)
     {
-        $messageFactory = MessageFactoryDiscovery::find();
-        $client = new Client();
-        $logger = new TestLogger();
+        $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
+        $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
 
+        $logger = new TestLogger();
+        $client = new Client();
         $client->addResponse(
-            $messageFactory->createResponse(200, 'OK', ['Content-Type' => 'application/json'], $lockersResponse)
+            $messageFactory
+                ->createResponse(200, 'OK')
+                ->withBody($streamFactory->createStream($lockersResponse))
+                ->withHeader('Content-Type', 'application/json')
         );
         $client->addResponse(
-            $messageFactory->createResponse(200, 'OK', ['Content-Type' => 'application/json'], $postOfficesResponse)
+            $messageFactory
+                ->createResponse(200, 'OK')
+                ->withBody($streamFactory->createStream($postOfficesResponse))
+                ->withHeader('Content-Type', 'application/json')
         );
 
 
@@ -526,17 +558,23 @@ class LocationFinderServiceTest extends TestCase
      */
     public function findDropOffLocationsByGeo(string $lockersResponse, string $postOfficesResponse)
     {
-        $messageFactory = MessageFactoryDiscovery::find();
-        $client = new Client();
+        $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
+        $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
+
         $logger = new TestLogger();
-
+        $client = new Client();
         $client->addResponse(
-            $messageFactory->createResponse(200, 'OK', ['Content-Type' => 'application/json'], $lockersResponse)
+            $messageFactory
+                ->createResponse(200, 'OK')
+                ->withBody($streamFactory->createStream($lockersResponse))
+                ->withHeader('Content-Type', 'application/json')
         );
         $client->addResponse(
-            $messageFactory->createResponse(200, 'OK', ['Content-Type' => 'application/json'], $postOfficesResponse)
+            $messageFactory
+                ->createResponse(200, 'OK')
+                ->withBody($streamFactory->createStream($postOfficesResponse))
+                ->withHeader('Content-Type', 'application/json')
         );
-
 
         $serviceFactory = new HttpServiceFactory($client);
         $service = $serviceFactory->createLocationFinderService('FOO_KEY', $logger);

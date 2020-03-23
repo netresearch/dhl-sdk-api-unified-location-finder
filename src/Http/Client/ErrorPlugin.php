@@ -42,7 +42,7 @@ class ErrorPlugin implements Plugin
      *
      * @throws DetailedErrorException
      */
-    private function handleDetailedError(int $statusCode, RequestInterface $request, ResponseInterface $response)
+    private function handleDetailedError(int $statusCode, RequestInterface $request, ResponseInterface $response): void
     {
         $responseJson = (string) $response->getBody();
         $responseData = \json_decode($responseJson, true);
@@ -72,7 +72,7 @@ class ErrorPlugin implements Plugin
      *
      * @throws HttpException
      */
-    private function handleError(int $statusCode, RequestInterface $request, ResponseInterface $response)
+    private function handleError(int $statusCode, RequestInterface $request, ResponseInterface $response): void
     {
         $errorMessage = sprintf('[%s] %s', $statusCode, $response->getReasonPhrase());
         throw new HttpException($errorMessage, $request, $response);

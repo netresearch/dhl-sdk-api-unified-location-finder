@@ -18,9 +18,9 @@ use Dhl\Sdk\UnifiedLocationFinder\Exception\ServiceException;
  */
 interface LocationFinderServiceInterface
 {
-    const SERVICE_PARCEL = 'parcel-eu';
+    public const SERVICE_PARCEL = 'parcel-eu';
 
-    const SERVICE_EXPRESS = 'express';
+    public const SERVICE_EXPRESS = 'express';
 
     /**
      * Find pickup locations by given address for a given carrier (DHL Paket, DHL Express).

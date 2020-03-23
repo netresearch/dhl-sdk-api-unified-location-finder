@@ -18,20 +18,20 @@ use Dhl\Sdk\UnifiedLocationFinder\Service\LocationFinderService;
 use Http\Client\Common\Plugin\HeaderSetPlugin;
 use Http\Client\Common\Plugin\LoggerPlugin;
 use Http\Client\Common\PluginClient;
-use Http\Client\HttpClient;
 use Http\Discovery\Exception\NotFoundException;
-use Http\Discovery\MessageFactoryDiscovery;
+use Http\Discovery\Psr17FactoryDiscovery;
 use Http\Message\Formatter\FullHttpMessageFormatter;
+use Psr\Http\Client\ClientInterface;
 use Psr\Log\LoggerInterface;
 
 class HttpServiceFactory implements ServiceFactoryInterface
 {
     /**
-     * @var HttpClient
+     * @var ClientInterface
      */
     private $httpClient;
 
-    public function __construct(HttpClient $httpClient)
+    public function __construct(ClientInterface $httpClient)
     {
         $this->httpClient = $httpClient;
     }
@@ -50,7 +50,7 @@ class HttpServiceFactory implements ServiceFactoryInterface
         );
 
         try {
-            $requestFactory = MessageFactoryDiscovery::find();
+            $requestFactory = Psr17FactoryDiscovery::findRequestFactory();
         } catch (NotFoundException $exception) {
             throw ServiceExceptionFactory::create($exception);
         }
