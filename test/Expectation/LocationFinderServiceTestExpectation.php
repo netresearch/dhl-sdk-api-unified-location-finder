@@ -41,7 +41,7 @@ class LocationFinderServiceTestExpectation
         float $longitude = null,
         int $radius = null,
         int $limit = null
-    ) {
+    ): void {
         $requestParams = [
             'countryCode' => $countryCode,
             'addressLocality' => $city,
@@ -66,7 +66,7 @@ class LocationFinderServiceTestExpectation
         Assert::assertSame(array_intersect_assoc($requestParams, $queryParams), $requestParams);
         if ($service) {
             $serviceType = ($service === LocationFinderServiceInterface::SERVICE_PARCEL) ? 'parcel' : 'express';
-            Assert::assertContains("serviceType={$serviceType}", $query);
+            Assert::assertNotFalse(strpos($query, "serviceType={$serviceType}"));
         }
     }
 
@@ -76,7 +76,7 @@ class LocationFinderServiceTestExpectation
      * @param \Throwable $exception
      * @param TestLogger $logger
      */
-    public static function assertExceptionLogged(\Throwable $exception, TestLogger $logger)
+    public static function assertExceptionLogged(\Throwable $exception, TestLogger $logger): void
     {
         Assert::assertTrue($logger->hasErrorRecords(), 'No error logged');
         Assert::assertTrue($logger->hasErrorThatContains($exception->getMessage()), 'Error message not logged');
@@ -89,11 +89,11 @@ class LocationFinderServiceTestExpectation
      * @param RequestInterface $request
      * @param TestLogger $logger
      */
-    public static function assertErrorLogged(string $responseJson, RequestInterface $request, TestLogger $logger)
+    public static function assertErrorLogged(string $responseJson, RequestInterface $request, TestLogger $logger): void
     {
         $statusRegex = '|^HTTP/\d\.\d\s\d{3}\s[\w\s]+$|m';
 
-        $hasRequest = $logger->hasErrorThatContains($request->getUri()->getQuery());
+        $hasRequest = $logger->hasInfoThatContains($request->getUri()->getQuery());
         $hasResponseStatus = $logger->hasErrorThatMatches($statusRegex);
         $hasResponse = $logger->hasErrorThatContains($responseJson);
 
@@ -113,7 +113,7 @@ class LocationFinderServiceTestExpectation
         string $responseJson,
         RequestInterface $request,
         TestLogger $logger
-    ) {
+    ): void {
         $statusRegex = '|^HTTP/\d\.\d\s\d{3}\s[\w\s]+$|m';
 
         $hasRequest = $logger->hasInfoThatContains($request->getUri()->getQuery());
@@ -131,7 +131,7 @@ class LocationFinderServiceTestExpectation
      * @param string $jsonResponse
      * @param LocationInterface[] $result
      */
-    public static function assertLocationsMapped(string $jsonResponse, array $result)
+    public static function assertLocationsMapped(string $jsonResponse, array $result): void
     {
         $response = json_decode($jsonResponse, false);
         foreach ($response->locations as $key => $apiLocation) {

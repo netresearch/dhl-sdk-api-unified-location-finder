@@ -3,4 +3,5 @@
 /composer.lock
 /vendor
 /test/coverage
+/test/.phpunit.result.cache
 /coverage

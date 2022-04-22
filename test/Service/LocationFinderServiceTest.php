@@ -130,7 +130,7 @@ class LocationFinderServiceTest extends TestCase
      * @param \Exception $exception
      * @throws ServiceException
      */
-    public function handleExceptions(\Exception $exception)
+    public function handleExceptions(\Exception $exception): void
     {
         $this->expectException(ServiceException::class);
 
@@ -159,7 +159,7 @@ class LocationFinderServiceTest extends TestCase
      * @param string $jsonResponse
      * @throws ServiceException
      */
-    public function handleErrors(string $jsonResponse)
+    public function handleErrors(string $jsonResponse): void
     {
         $response = json_decode($jsonResponse, true);
 
@@ -170,7 +170,6 @@ class LocationFinderServiceTest extends TestCase
         }
 
         $this->expectExceptionCode($response['status']);
-        $this->expectExceptionMessageRegExp("#{$response['title']}#");
 
         $logger = new TestLogger();
         $client = new Client();
@@ -193,6 +192,7 @@ class LocationFinderServiceTest extends TestCase
         } catch (ServiceException $exception) {
             Expectation::assertErrorLogged($jsonResponse, $client->getLastRequest(), $logger);
 
+            $this->assertNotFalse(strpos($exception->getMessage(), $response['title']));
             throw $exception;
         }
     }
@@ -292,7 +292,7 @@ class LocationFinderServiceTest extends TestCase
      * @param string $jsonResponse
      * @throws ServiceException
      */
-    public function findExpressPickupLocations(string $jsonResponse)
+    public function findExpressPickupLocations(string $jsonResponse): void
     {
         $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
         $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
@@ -349,7 +349,7 @@ class LocationFinderServiceTest extends TestCase
      * @param string $lockersResponse
      * @throws ServiceException
      */
-    public function findParcelDropOffLocations(string $postOfficesResponse, string $lockersResponse)
+    public function findParcelDropOffLocations(string $postOfficesResponse, string $lockersResponse): void
     {
         $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
         $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
@@ -430,7 +430,7 @@ class LocationFinderServiceTest extends TestCase
      * @param string $jsonResponse
      * @throws ServiceException
      */
-    public function findExpressDropOffLocations(string $jsonResponse)
+    public function findExpressDropOffLocations(string $jsonResponse): void
     {
         $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
         $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
@@ -486,7 +486,7 @@ class LocationFinderServiceTest extends TestCase
      * @param string $postOfficesResponse
      * @throws ServiceException
      */
-    public function findPickUpLocationsByGeo(string $lockersResponse, string $postOfficesResponse)
+    public function findPickUpLocationsByGeo(string $lockersResponse, string $postOfficesResponse): void
     {
         $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
         $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
@@ -556,7 +556,7 @@ class LocationFinderServiceTest extends TestCase
      * @param string $postOfficesResponse
      * @throws ServiceException
      */
-    public function findDropOffLocationsByGeo(string $lockersResponse, string $postOfficesResponse)
+    public function findDropOffLocationsByGeo(string $lockersResponse, string $postOfficesResponse): void
     {
         $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
         $streamFactory = Psr17FactoryDiscovery::findStreamFactory();

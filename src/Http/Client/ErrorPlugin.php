@@ -62,7 +62,7 @@ class ErrorPlugin implements Plugin
     }
 
     /**
-     * Handles all client/server errors when response does not contains body with error message.
+     * Handles all client/server errors when response does not contain body with error message.
      *
      * @param int $statusCode
      * @param RequestInterface $request
