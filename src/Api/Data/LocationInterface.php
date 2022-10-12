@@ -54,6 +54,11 @@ interface LocationInterface
     public function getAddress(): AddressInterface;
 
     /**
+     * @return string
+     */
+    public function getPlace(): string;
+
+    /**
      * @return OpeningHoursInterface[]
      */
     public function getOpeningHours(): array;

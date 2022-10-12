@@ -47,5 +47,10 @@
         "psr-4": {
             "Dhl\\Sdk\\UnifiedLocationFinder\\Test\\": "test/"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-DHLGW-1292": "3.0.0.x-dev"
+        }
     }
 }

@@ -74,6 +74,7 @@ class LocationResponseMapper
                 (string) $apiLocation->getLocation()->getKeywordId(),
                 $geo,
                 $address,
+                $place->getContainedInPlace() ? $place->getContainedInPlace()->getName() : '',
                 $openingHours,
                 $closurePeriods,
                 $apiLocation->getServiceTypes()

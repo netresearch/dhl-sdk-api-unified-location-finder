@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+### Added
+
+- Introduce `\Dhl\Sdk\UnifiedLocationFinder\Api\Data\LocationInterface::getPlace()` method
+  to retrieve additional information about the surroundings where the facility is located.
+
 ## 2.1.0
 
 ### Added

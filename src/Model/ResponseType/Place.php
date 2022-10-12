@@ -21,6 +21,11 @@ class Place
     private $geo;
 
     /**
+     * @var \Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType\ContainedInPlace|null
+     */
+    private $containedInPlace;
+
+    /**
      * @return \Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType\Address
      */
     public function getAddress(): Address
@@ -34,5 +39,13 @@ class Place
     public function getGeo(): Geo
     {
         return $this->geo;
+    }
+
+    /**
+     * @return \Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType\ContainedInPlace|null
+     */
+    public function getContainedInPlace(): ?ContainedInPlace
+    {
+        return $this->containedInPlace;
     }
 }

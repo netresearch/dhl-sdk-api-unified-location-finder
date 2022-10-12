@@ -51,6 +51,11 @@ class Location implements LocationInterface
     private $address;
 
     /**
+     * @var string
+     */
+    private $place;
+
+    /**
      * @var OpeningHoursInterface[]
      */
     private $openingHours;
@@ -75,6 +80,7 @@ class Location implements LocationInterface
      * @param string $number
      * @param GeoInterface $geo
      * @param AddressInterface $address
+     * @param string $place
      * @param OpeningHoursInterface[] $openingHours
      * @param OpeningHoursInterface[] $specialOpeningHours
      * @param string[] $services
@@ -87,6 +93,7 @@ class Location implements LocationInterface
         string $number,
         GeoInterface $geo,
         AddressInterface $address,
+        string $place,
         array $openingHours,
         array $specialOpeningHours,
         array $services
@@ -98,6 +105,7 @@ class Location implements LocationInterface
         $this->number = $number;
         $this->geo = $geo;
         $this->address = $address;
+        $this->place = $place;
         $this->openingHours = $openingHours;
         $this->specialOpeningHours = $specialOpeningHours;
         $this->services = $services;
@@ -136,6 +144,11 @@ class Location implements LocationInterface
     public function getAddress(): AddressInterface
     {
         return $this->address;
+    }
+
+    public function getPlace(): string
+    {
+        return $this->place;
     }
 
     public function getOpeningHours(): array
