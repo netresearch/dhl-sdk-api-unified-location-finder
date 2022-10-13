@@ -104,21 +104,11 @@ class LocationFinderService implements LocationFinderServiceInterface
             'addressLocality' => $city,
             'streetAddress' => $street,
             'radius' => $radius,
-            'limit' => $limit
+            'limit' => $limit,
+            'serviceType' => ($service === self::SERVICE_EXPRESS) ? 'express:pick-up' : 'parcel:pick-up-all',
         ]);
 
-        if ($service === self::SERVICE_EXPRESS) {
-            $requestParams['serviceType'] = 'express:pick-up';
-            $result = $this->performRequest('find-by-address', $requestParams);
-        } else {
-            $requestParams['serviceType'] = 'parcel:pick-up-registered';
-            $lockers = $this->performRequest('find-by-address', $requestParams);
-
-            $requestParams['serviceType'] = 'parcel:pick-up';
-            $result = array_merge($lockers, $this->performRequest('find-by-address', $requestParams));
-        }
-
-        return $result;
+        return $this->performRequest('find-by-address', $requestParams);
     }
 
     public function getPickUpLocationsByCoordinate(
@@ -133,21 +123,11 @@ class LocationFinderService implements LocationFinderServiceInterface
             'latitude' => $latitude,
             'longitude' => $longitude,
             'radius' => $radius,
-            'limit' => $limit
+            'limit' => $limit,
+            'serviceType' => ($service === self::SERVICE_EXPRESS) ? 'express:pick-up' : 'parcel:pick-up-all',
         ]);
 
-        if ($service === self::SERVICE_EXPRESS) {
-            $requestParams['serviceType'] = 'express:pick-up';
-            $result = $this->performRequest('find-by-geo', $requestParams);
-        } else {
-            $requestParams['serviceType'] = 'parcel:pick-up-registered';
-            $lockers = $this->performRequest('find-by-geo', $requestParams);
-
-            $requestParams['serviceType'] = 'parcel:pick-up';
-            $result = array_merge($lockers, $this->performRequest('find-by-geo', $requestParams));
-        }
-
-        return $result;
+        return $this->performRequest('find-by-geo', $requestParams);
     }
 
     public function getDropOffLocations(

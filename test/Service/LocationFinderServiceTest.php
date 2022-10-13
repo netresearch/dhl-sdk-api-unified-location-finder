@@ -207,11 +207,10 @@ class LocationFinderServiceTest extends TestCase
      * @test
      * @dataProvider parcelPickupLocationsProvider
      *
-     * @param string $lockersResponse
-     * @param string $postOfficesResponse
+     * @param string $jsonResponse
      * @throws ServiceException
      */
-    public function findParcelPickupLocations(string $lockersResponse, string $postOfficesResponse): void
+    public function findParcelPickupLocations(string $jsonResponse): void
     {
         $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
         $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
@@ -221,13 +220,7 @@ class LocationFinderServiceTest extends TestCase
         $client->addResponse(
             $messageFactory
                 ->createResponse(200, 'OK')
-                ->withBody($streamFactory->createStream($lockersResponse))
-                ->withHeader('Content-Type', 'application/json')
-        );
-        $client->addResponse(
-            $messageFactory
-                ->createResponse(200, 'OK')
-                ->withBody($streamFactory->createStream($postOfficesResponse))
+                ->withBody($streamFactory->createStream($jsonResponse))
                 ->withHeader('Content-Type', 'application/json')
         );
 
@@ -245,7 +238,7 @@ class LocationFinderServiceTest extends TestCase
         );
 
         Expectation::assertQuery(
-            $client->getRequests()[0],
+            $client->getLastRequest(),
             $service,
             $countryCode,
             $postalCode,
@@ -256,27 +249,8 @@ class LocationFinderServiceTest extends TestCase
             $radius,
             $limit
         );
-        Expectation::assertQuery(
-            $client->getRequests()[1],
-            $service,
-            $countryCode,
-            $postalCode,
-            $city,
-            $street,
-            null,
-            null,
-            $radius,
-            $limit
-        );
-        Expectation::assertCommunicationLogged($lockersResponse, $client->getRequests()[0], $logger);
-        Expectation::assertCommunicationLogged($postOfficesResponse, $client->getRequests()[1], $logger);
-
-        $locations = array_merge(
-            json_decode($lockersResponse, true)['locations'],
-            json_decode($postOfficesResponse, true)['locations']
-        );
-
-        Expectation::assertLocationsMapped(json_encode(['locations' => $locations]), $result);
+        Expectation::assertCommunicationLogged($jsonResponse, $client->getLastRequest(), $logger);
+        Expectation::assertLocationsMapped($jsonResponse, $result);
     }
 
     /**
@@ -482,11 +456,10 @@ class LocationFinderServiceTest extends TestCase
      * @test
      * @dataProvider geoPickupLocationsProvider
      *
-     * @param string $lockersResponse
-     * @param string $postOfficesResponse
+     * @param string $jsonResponse
      * @throws ServiceException
      */
-    public function findPickUpLocationsByGeo(string $lockersResponse, string $postOfficesResponse): void
+    public function findPickUpLocationsByGeo(string $jsonResponse): void
     {
         $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
         $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
@@ -496,16 +469,9 @@ class LocationFinderServiceTest extends TestCase
         $client->addResponse(
             $messageFactory
                 ->createResponse(200, 'OK')
-                ->withBody($streamFactory->createStream($lockersResponse))
+                ->withBody($streamFactory->createStream($jsonResponse))
                 ->withHeader('Content-Type', 'application/json')
         );
-        $client->addResponse(
-            $messageFactory
-                ->createResponse(200, 'OK')
-                ->withBody($streamFactory->createStream($postOfficesResponse))
-                ->withHeader('Content-Type', 'application/json')
-        );
-
 
         $serviceFactory = new HttpServiceFactory($client);
         $service = $serviceFactory->createLocationFinderService('FOO_KEY', $logger);
@@ -519,19 +485,7 @@ class LocationFinderServiceTest extends TestCase
         );
 
         Expectation::assertQuery(
-            $client->getRequests()[0],
-            $service,
-            null,
-            null,
-            null,
-            null,
-            $lat,
-            $long,
-            $radius,
-            $limit
-        );
-        Expectation::assertQuery(
-            $client->getRequests()[1],
+            $client->getLastRequest(),
             $service,
             null,
             null,

@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Introduce `\Dhl\Sdk\UnifiedLocationFinder\Api\Data\LocationInterface::getPlace()` method
   to retrieve additional information about the surroundings where the facility is located.
 
+### Changed
+
+- Use service type `parcel:pick-up-all` to reduce web service calls.
+
 ## 2.1.0
 
 ### Added

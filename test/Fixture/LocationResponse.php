@@ -17,8 +17,7 @@ class LocationResponse
     {
         return [
             'json_response' => [
-                \file_get_contents(__DIR__ . '/files/success/pickup/parcelLockersResponse.json'),
-                \file_get_contents(__DIR__ . '/files/success/pickup/parcelPostOfficeResponse.json'),
+                \file_get_contents(__DIR__ . '/files/success/pickup/parcelResponse.json'),
             ],
         ];
     }
@@ -64,8 +63,7 @@ class LocationResponse
     {
         return [
             'json_response' => [
-                \file_get_contents(__DIR__ . '/files/success/pickupByGeo/parcelLockersResponse.json'),
-                \file_get_contents(__DIR__ . '/files/success/pickupByGeo/parcelPostOfficeResponse.json'),
+                \file_get_contents(__DIR__ . '/files/success/pickupByGeo/parcelResponse.json'),
             ],
         ];
     }
