@@ -45,7 +45,7 @@ class ErrorPlugin implements Plugin
     private function handleDetailedError(int $statusCode, RequestInterface $request, ResponseInterface $response): void
     {
         $responseJson = (string) $response->getBody();
-        $responseData = \json_decode($responseJson, true);
+        $responseData = \json_decode($responseJson, true) ?: [];
 
         $statusText = $responseData['title'] ?? '';
         if (isset($responseData['detail'])) {
