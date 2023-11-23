@@ -12,32 +12,12 @@ use Dhl\Sdk\UnifiedLocationFinder\Api\Data\AddressInterface;
 
 class Address implements AddressInterface
 {
-    /**
-     * @var string
-     */
-    private $countryCode;
-
-    /**
-     * @var string
-     */
-    private $postalCode;
-
-    /**
-     * @var string
-     */
-    private $city;
-
-    /**
-     * @var string
-     */
-    private $street;
-
-    public function __construct(string $countryCode, string $postalCode, string $city, string $street)
-    {
-        $this->countryCode = $countryCode;
-        $this->postalCode = $postalCode;
-        $this->city = $city;
-        $this->street = $street;
+    public function __construct(
+        private readonly string $countryCode,
+        private readonly string $postalCode,
+        private readonly string $city,
+        private readonly string $street,
+    ) {
     }
 
     public function getCountryCode(): string

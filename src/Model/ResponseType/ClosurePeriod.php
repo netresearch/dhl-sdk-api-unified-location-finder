@@ -10,40 +10,22 @@ namespace Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType;
 
 class ClosurePeriod
 {
-    /**
-     * @var string
-     */
-    private $type;
+    private string $type = '';
 
-    /**
-     * @var string
-     */
-    private $fromDate;
+    private string $fromDate = '';
 
-    /**
-     * @var string
-     */
-    private $toDate;
+    private string $toDate = '';
 
-    /**
-     * @return string
-     */
     public function getType(): string
     {
         return $this->type;
     }
 
-    /**
-     * @return string
-     */
     public function getFromDate(): string
     {
         return $this->fromDate;
     }
 
-    /**
-     * @return string
-     */
     public function getToDate(): string
     {
         return $this->toDate;

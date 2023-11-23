@@ -24,13 +24,15 @@ use Http\Discovery\Psr17FactoryDiscovery;
 use Http\Mock\Client;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\Test\TestLogger;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\Attributes\Test;
 
 class LocationFinderServiceTest extends TestCase
 {
     /**
      * @return TransferException[][]
      */
-    public function exceptionProvider(): array
+    public static function exceptionProvider(): array
     {
         $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
         $request = $messageFactory->createRequest('GET', 'www');
@@ -68,7 +70,7 @@ class LocationFinderServiceTest extends TestCase
     /**
      * @return string[][]
      */
-    public function errorDataProvider(): array
+    public static function errorDataProvider(): array
     {
         return LocationResponse::getErrorResponse();
     }
@@ -76,7 +78,7 @@ class LocationFinderServiceTest extends TestCase
     /**
      * @return string[][]
      */
-    public function parcelPickupLocationsProvider(): array
+    public static function parcelPickupLocationsProvider(): array
     {
         return LocationResponse::getParcelPickupLocationsResponse();
     }
@@ -84,7 +86,7 @@ class LocationFinderServiceTest extends TestCase
     /**
      * @return string[][]
      */
-    public function parcelDropOffLocationsProvider(): array
+    public static function parcelDropOffLocationsProvider(): array
     {
         return LocationResponse::getParcelDropOffLocationsResponse();
     }
@@ -92,7 +94,7 @@ class LocationFinderServiceTest extends TestCase
     /**
      * @return string[][]
      */
-    public function expressPickupLocationsProvider(): array
+    public static function expressPickupLocationsProvider(): array
     {
         return LocationResponse::getExpressPickupLocationsResponse();
     }
@@ -100,7 +102,7 @@ class LocationFinderServiceTest extends TestCase
     /**
      * @return string[][]
      */
-    public function expressDropOffLocationsProvider(): array
+    public static function expressDropOffLocationsProvider(): array
     {
         return LocationResponse::getExpressDropOffLocationsResponse();
     }
@@ -108,7 +110,7 @@ class LocationFinderServiceTest extends TestCase
     /**
      * @return string[][]
      */
-    public function geoPickupLocationsProvider(): array
+    public static function geoPickupLocationsProvider(): array
     {
         return LocationResponse::getParcelPickupLocationsByGeoResponse();
     }
@@ -116,7 +118,7 @@ class LocationFinderServiceTest extends TestCase
     /**
      * @return string[][]
      */
-    public function geoDropOffLocationsProvider(): array
+    public static function geoDropOffLocationsProvider(): array
     {
         return LocationResponse::getDropOffLocationsByGeoResponse();
     }
@@ -124,13 +126,12 @@ class LocationFinderServiceTest extends TestCase
     /**
      * Assert that HTTP client exceptions with no JSON response are transformed into service exceptions.
      *
-     * @test
-     * @dataProvider exceptionProvider
      *
-     * @param \Exception $exception
      * @throws ServiceException
      */
-    public function handleExceptions(\Exception $exception): void
+    #[DataProvider('exceptionProvider')]
+    #[Test]
+    public function handleExceptions(\Throwable $exception): void
     {
         $this->expectException(ServiceException::class);
 
@@ -153,15 +154,14 @@ class LocationFinderServiceTest extends TestCase
     /**
      * Assert that HTTP client exceptions with JSON response are transformed into detailed service exceptions.
      *
-     * @test
-     * @dataProvider errorDataProvider
      *
-     * @param string $jsonResponse
      * @throws ServiceException
      */
+    #[DataProvider('errorDataProvider')]
+    #[Test]
     public function handleErrors(string $jsonResponse): void
     {
-        $response = json_decode($jsonResponse, true);
+        $response = json_decode($jsonResponse, true, 512, JSON_THROW_ON_ERROR);
 
         if ($response['status'] === 401) {
             $this->expectException(AuthenticationException::class);
@@ -192,7 +192,7 @@ class LocationFinderServiceTest extends TestCase
         } catch (ServiceException $exception) {
             Expectation::assertErrorLogged($jsonResponse, $client->getLastRequest(), $logger);
 
-            $this->assertNotFalse(strpos($exception->getMessage(), $response['title']));
+            $this->assertNotFalse(strpos($exception->getMessage(), (string) $response['title']));
             throw $exception;
         }
     }
@@ -204,13 +204,12 @@ class LocationFinderServiceTest extends TestCase
      * - Assert request and response being logged
      * - Assert web service response being properly transformed to SDK response objects.
      *
-     * @test
-     * @dataProvider parcelPickupLocationsProvider
      *
-     * @param string $jsonResponse
      * @throws ServiceException
      */
-    public function findParcelPickupLocations(string $jsonResponse): void
+    #[DataProvider('parcelPickupLocationsProvider')]
+    #[Test]
+    public static function findParcelPickupLocations(string $jsonResponse): void
     {
         $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
         $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
@@ -260,13 +259,12 @@ class LocationFinderServiceTest extends TestCase
      * - Assert request and response being logged
      * - Assert web service response being properly transformed to SDK response objects.
      *
-     * @test
-     * @dataProvider expressPickupLocationsProvider
      *
-     * @param string $jsonResponse
      * @throws ServiceException
      */
-    public function findExpressPickupLocations(string $jsonResponse): void
+    #[DataProvider('expressPickupLocationsProvider')]
+    #[Test]
+    public static function findExpressPickupLocations(string $jsonResponse): void
     {
         $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
         $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
@@ -316,14 +314,12 @@ class LocationFinderServiceTest extends TestCase
      * - Assert request and response being logged
      * - Assert web service response being properly transformed to SDK response objects.
      *
-     * @test
-     * @dataProvider parcelDropOffLocationsProvider
      *
-     * @param string $postOfficesResponse
-     * @param string $lockersResponse
      * @throws ServiceException
      */
-    public function findParcelDropOffLocations(string $postOfficesResponse, string $lockersResponse): void
+    #[DataProvider('parcelDropOffLocationsProvider')]
+    #[Test]
+    public static function findParcelDropOffLocations(string $postOfficesResponse, string $lockersResponse): void
     {
         $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
         $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
@@ -384,11 +380,11 @@ class LocationFinderServiceTest extends TestCase
         Expectation::assertCommunicationLogged($lockersResponse, $client->getRequests()[1], $logger);
 
         $locations = array_merge(
-            json_decode($lockersResponse, true)['locations'],
-            json_decode($postOfficesResponse, true)['locations']
+            json_decode($lockersResponse, true, 512, JSON_THROW_ON_ERROR)['locations'],
+            json_decode($postOfficesResponse, true, 512, JSON_THROW_ON_ERROR)['locations']
         );
 
-        Expectation::assertLocationsMapped(json_encode(['locations' => $locations]), $result);
+        Expectation::assertLocationsMapped(json_encode(['locations' => $locations], JSON_THROW_ON_ERROR), $result);
     }
 
     /**
@@ -398,13 +394,12 @@ class LocationFinderServiceTest extends TestCase
      * - Assert request and response being logged
      * - Assert web service response being properly transformed to SDK response objects.
      *
-     * @test
-     * @dataProvider expressDropOffLocationsProvider
      *
-     * @param string $jsonResponse
      * @throws ServiceException
      */
-    public function findExpressDropOffLocations(string $jsonResponse): void
+    #[DataProvider('expressDropOffLocationsProvider')]
+    #[Test]
+    public static function findExpressDropOffLocations(string $jsonResponse): void
     {
         $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
         $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
@@ -453,13 +448,12 @@ class LocationFinderServiceTest extends TestCase
      *
      * - Assert arguments being passed to web service
      *
-     * @test
-     * @dataProvider geoPickupLocationsProvider
      *
-     * @param string $jsonResponse
      * @throws ServiceException
      */
-    public function findPickUpLocationsByGeo(string $jsonResponse): void
+    #[DataProvider('geoPickupLocationsProvider')]
+    #[Test]
+    public static function findPickUpLocationsByGeo(string $jsonResponse): void
     {
         $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
         $streamFactory = Psr17FactoryDiscovery::findStreamFactory();
@@ -503,14 +497,12 @@ class LocationFinderServiceTest extends TestCase
      *
      * - Assert arguments being passed to web service
      *
-     * @test
-     * @dataProvider geoDropOffLocationsProvider
      *
-     * @param string $lockersResponse
-     * @param string $postOfficesResponse
      * @throws ServiceException
      */
-    public function findDropOffLocationsByGeo(string $lockersResponse, string $postOfficesResponse): void
+    #[DataProvider('geoDropOffLocationsProvider')]
+    #[Test]
+    public static function findDropOffLocationsByGeo(string $lockersResponse, string $postOfficesResponse): void
     {
         $messageFactory = Psr17FactoryDiscovery::findResponseFactory();
         $streamFactory = Psr17FactoryDiscovery::findStreamFactory();

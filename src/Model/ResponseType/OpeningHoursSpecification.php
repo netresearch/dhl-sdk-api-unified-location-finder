@@ -10,40 +10,22 @@ namespace Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType;
 
 class OpeningHoursSpecification
 {
-    /**
-     * @var string
-     */
-    private $dayOfWeek;
+    private string $dayOfWeek = '';
 
-    /**
-     * @var string
-     */
-    private $opens;
+    private string $opens = '';
 
-    /**
-     * @var string
-     */
-    private $closes;
+    private string $closes = '';
 
-    /**
-     * @return string
-     */
     public function getDayOfWeek(): string
     {
         return $this->dayOfWeek;
     }
 
-    /**
-     * @return string
-     */
     public function getOpens(): string
     {
         return $this->opens;
     }
 
-    /**
-     * @return string
-     */
     public function getCloses(): string
     {
         return $this->closes;

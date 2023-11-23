@@ -13,15 +13,14 @@ use Dhl\Sdk\UnifiedLocationFinder\Model\FindLocationsResponseType;
 class JsonSerializer
 {
     /**
-     * @param string $jsonResponse
-     * @return FindLocationsResponseType
      * @throws \JsonMapper_Exception
+     * @throws \JsonException
      */
     public function decode(string $jsonResponse): FindLocationsResponseType
     {
         $jsonMapper = new \JsonMapper();
         $jsonMapper->bIgnoreVisibility = true;
-        $response = \json_decode($jsonResponse, false);
+        $response = \json_decode($jsonResponse, false, 512, JSON_THROW_ON_ERROR);
         /** @var FindLocationsResponseType $mappedResponse */
         $mappedResponse = $jsonMapper->map($response, new FindLocationsResponseType());
 

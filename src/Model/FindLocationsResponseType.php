@@ -13,7 +13,7 @@ class FindLocationsResponseType
     /**
      * @var \Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType\Location[]
      */
-    private $locations;
+    private array $locations;
 
     /**
      * @return \Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType\Location[]

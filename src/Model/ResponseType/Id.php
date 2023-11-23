@@ -10,27 +10,15 @@ namespace Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType;
 
 class Id
 {
-    /**
-     * @var string
-     */
-    private $locationId;
+    private string $locationId = '';
 
-    /**
-     * @var string
-     */
-    private $provider;
+    private string $provider = '';
 
-    /**
-     * @return string
-     */
     public function getLocationId(): string
     {
         return $this->locationId;
     }
 
-    /**
-     * @return string
-     */
     public function getProvider(): string
     {
         return $this->provider;

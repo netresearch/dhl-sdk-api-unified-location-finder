@@ -25,11 +25,6 @@ interface LocationFinderServiceInterface
     /**
      * Find pickup locations by given address for a given carrier (DHL Paket, DHL Express).
      *
-     * @param string $countryCode
-     * @param string $postalCode
-     * @param string $city
-     * @param string $street
-     * @param string $service
      * @param int|null $radius
      * @param int|null $limit
      *
@@ -51,9 +46,6 @@ interface LocationFinderServiceInterface
     /**
      * Find pickup locations by given coordinates for a given carrier (DHL Paket, DHL Express).
      *
-     * @param float $latitude
-     * @param float $longitude
-     * @param string $service
      * @param int|null $radius
      * @param int|null $limit
      *
@@ -73,11 +65,6 @@ interface LocationFinderServiceInterface
     /**
      * Find drop-off locations by given address for a given carrier (DHL Paket, DHL Express).
      *
-     * @param string $countryCode
-     * @param string $postalCode
-     * @param string $city
-     * @param string $street
-     * @param string $service
      * @param int|null $radius
      * @param int|null $limit
      *
@@ -99,9 +86,6 @@ interface LocationFinderServiceInterface
     /**
      * Find drop-off locations by given coordinates for a given carrier (DHL Paket, DHL Express).
      *
-     * @param float $latitude
-     * @param float $longitude
-     * @param string $service
      * @param int|null $radius
      * @param int|null $limit
      *

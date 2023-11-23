@@ -16,99 +16,25 @@ use Dhl\Sdk\UnifiedLocationFinder\Api\Data\OpeningHoursInterface;
 class Location implements LocationInterface
 {
     /**
-     * @var string
-     */
-    private $id;
-
-    /**
-     * @var string
-     */
-    private $type;
-
-    /**
-     * @var int
-     */
-    private $distanceInMeter;
-
-    /**
-     * @var string
-     */
-    private $name;
-
-    /**
-     * @var string
-     */
-    private $number;
-
-    /**
-     * @var GeoInterface
-     */
-    private $geo;
-
-    /**
-     * @var AddressInterface
-     */
-    private $address;
-
-    /**
-     * @var string
-     */
-    private $place;
-
-    /**
-     * @var OpeningHoursInterface[]
-     */
-    private $openingHours;
-
-    /**
-     * @var OpeningHoursInterface[]
-     */
-    private $specialOpeningHours;
-
-    /**
-     * @var string[]
-     */
-    private $services;
-
-    /**
      * Location constructor.
      *
-     * @param string $id
-     * @param string $type
-     * @param int $distanceInMeter
-     * @param string $name
-     * @param string $number
-     * @param GeoInterface $geo
-     * @param AddressInterface $address
-     * @param string $place
      * @param OpeningHoursInterface[] $openingHours
      * @param OpeningHoursInterface[] $specialOpeningHours
      * @param string[] $services
      */
     public function __construct(
-        string $id,
-        string $type,
-        int $distanceInMeter,
-        string $name,
-        string $number,
-        GeoInterface $geo,
-        AddressInterface $address,
-        string $place,
-        array $openingHours,
-        array $specialOpeningHours,
-        array $services
+        private readonly string $id,
+        private readonly string $type,
+        private readonly int $distanceInMeter,
+        private readonly string $name,
+        private readonly string $number,
+        private readonly GeoInterface $geo,
+        private readonly AddressInterface $address,
+        private readonly string $place,
+        private readonly array $openingHours,
+        private readonly array $specialOpeningHours,
+        private readonly array $services
     ) {
-        $this->id = $id;
-        $this->type = $type;
-        $this->distanceInMeter = $distanceInMeter;
-        $this->name = $name;
-        $this->number = $number;
-        $this->geo = $geo;
-        $this->address = $address;
-        $this->place = $place;
-        $this->openingHours = $openingHours;
-        $this->specialOpeningHours = $specialOpeningHours;
-        $this->services = $services;
     }
 
     public function getId(): string

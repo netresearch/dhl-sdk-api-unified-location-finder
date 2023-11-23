@@ -13,22 +13,13 @@ class LocationMeta
     /**
      * @var \Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType\Id[]
      */
-    private $ids;
+    private array $ids;
 
-    /**
-     * @var string
-     */
-    private $keyword;
+    private string $keyword = '';
 
-    /**
-     * @var int
-     */
-    private $keywordId;
+    private int $keywordId;
 
-    /**
-     * @var string
-     */
-    private $type;
+    private string $type = '';
 
     /**
      * @return \Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType\Id[]
@@ -38,25 +29,16 @@ class LocationMeta
         return $this->ids;
     }
 
-    /**
-     * @return string
-     */
     public function getKeyword(): string
     {
         return $this->keyword;
     }
 
-    /**
-     * @return int
-     */
     public function getKeywordId(): int
     {
         return $this->keywordId;
     }
 
-    /**
-     * @return string
-     */
     public function getType(): string
     {
         return $this->type;

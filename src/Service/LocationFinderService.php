@@ -24,40 +24,15 @@ use Psr\Http\Message\RequestFactoryInterface;
 
 class LocationFinderService implements LocationFinderServiceInterface
 {
-    /**
-     * @var ClientInterface
-     */
-    private $client;
-
-    /**
-     * @var RequestFactoryInterface
-     */
-    private $requestFactory;
-
-    /**
-     * @var JsonSerializer
-     */
-    private $serializer;
-
-    /**
-     * @var LocationResponseMapper
-     */
-    private $responseMapper;
-
     public function __construct(
-        ClientInterface $client,
-        RequestFactoryInterface $requestFactory,
-        JsonSerializer $serializer,
-        LocationResponseMapper $responseMapper
+        private readonly ClientInterface $client,
+        private readonly RequestFactoryInterface $requestFactory,
+        private readonly JsonSerializer $serializer,
+        private readonly LocationResponseMapper $responseMapper
     ) {
-        $this->client = $client;
-        $this->requestFactory = $requestFactory;
-        $this->serializer = $serializer;
-        $this->responseMapper = $responseMapper;
     }
 
     /**
-     * @param string $resource
      * @param string[]|int[]|float[] $queryParams
      *
      * @return LocationInterface[]
@@ -148,19 +123,15 @@ class LocationFinderService implements LocationFinderServiceInterface
             'radius' => $radius,
             'limit' => $limit
         ]);
-
         if ($service === self::SERVICE_EXPRESS) {
             $requestParams['serviceType'] = 'express:drop-off';
-            $result = $this->performRequest('find-by-address', $requestParams);
-        } else {
-            $requestParams['serviceType'] = 'parcel:drop-off-unregistered';
-            $lockers = $this->performRequest('find-by-address', $requestParams);
-
-            $requestParams['serviceType'] = 'parcel:drop-off';
-            $result = array_merge($lockers, $this->performRequest('find-by-address', $requestParams));
+            return $this->performRequest('find-by-address', $requestParams);
         }
+        $requestParams['serviceType'] = 'parcel:drop-off-unregistered';
+        $lockers = $this->performRequest('find-by-address', $requestParams);
+        $requestParams['serviceType'] = 'parcel:drop-off';
 
-        return $result;
+        return array_merge($lockers, $this->performRequest('find-by-address', $requestParams));
     }
 
     public function getDropOffLocationsByCoordinate(
@@ -177,18 +148,14 @@ class LocationFinderService implements LocationFinderServiceInterface
             'radius' => $radius,
             'limit' => $limit
         ]);
-
         if ($service === self::SERVICE_EXPRESS) {
             $requestParams['serviceType'] = 'express:drop-off';
-            $result = $this->performRequest('find-by-geo', $requestParams);
-        } else {
-            $requestParams['serviceType'] = 'parcel:drop-off-unregistered';
-            $lockers = $this->performRequest('find-by-geo', $requestParams);
-
-            $requestParams['serviceType'] = 'parcel:drop-off';
-            $result = array_merge($lockers, $this->performRequest('find-by-geo', $requestParams));
+            return $this->performRequest('find-by-geo', $requestParams);
         }
+        $requestParams['serviceType'] = 'parcel:drop-off-unregistered';
+        $lockers = $this->performRequest('find-by-geo', $requestParams);
+        $requestParams['serviceType'] = 'parcel:drop-off';
 
-        return $result;
+        return array_merge($lockers, $this->performRequest('find-by-geo', $requestParams));
     }
 }

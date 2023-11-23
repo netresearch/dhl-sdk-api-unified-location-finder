@@ -18,44 +18,20 @@ interface LocationInterface
     public const TYPE_POSTOFFICE = 'postoffice';
     public const TYPE_POSTBANK = 'postbank';
 
-    /**
-     * @return string
-     */
     public function getId(): string;
 
-    /**
-     * @return string
-     */
     public function getType(): string;
 
-    /**
-     * @return int
-     */
     public function getDistanceInMeter(): int;
 
-    /**
-     * @return string
-     */
     public function getName(): string;
 
-    /**
-     * @return string
-     */
     public function getNumber(): string;
 
-    /**
-     * @return GeoInterface
-     */
     public function getGeo(): GeoInterface;
 
-    /**
-     * @return AddressInterface
-     */
     public function getAddress(): AddressInterface;
 
-    /**
-     * @return string
-     */
     public function getPlace(): string;
 
     /**

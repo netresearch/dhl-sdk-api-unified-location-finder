@@ -10,53 +10,29 @@ namespace Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType;
 
 class Address
 {
-    /**
-     * @var string
-     */
-    private $countryCode;
+    private string $countryCode = '';
 
-    /**
-     * @var string
-     */
-    private $postalCode;
+    private string $postalCode = '';
 
-    /**
-     * @var string
-     */
-    private $addressLocality;
+    private string $addressLocality = '';
 
-    /**
-     * @var string
-     */
-    private $streetAddress;
+    private string $streetAddress = '';
 
-    /**
-     * @return string
-     */
     public function getCountryCode(): string
     {
         return $this->countryCode;
     }
 
-    /**
-     * @return string
-     */
     public function getPostalCode(): string
     {
         return $this->postalCode;
     }
 
-    /**
-     * @return string
-     */
     public function getAddressLocality(): string
     {
         return $this->addressLocality;
     }
 
-    /**
-     * @return string
-     */
     public function getStreetAddress(): string
     {
         return $this->streetAddress;

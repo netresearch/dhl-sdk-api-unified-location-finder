@@ -13,7 +13,7 @@ use Dhl\Sdk\UnifiedLocationFinder\Api\ServiceFactoryInterface;
 use Dhl\Sdk\UnifiedLocationFinder\Exception\ServiceExceptionFactory;
 use Dhl\Sdk\UnifiedLocationFinder\Http\HttpServiceFactory;
 use Http\Discovery\Exception\NotFoundException;
-use Http\Discovery\HttpClientDiscovery;
+use Http\Discovery\Psr18ClientDiscovery;
 use Psr\Log\LoggerInterface;
 
 class ServiceFactory implements ServiceFactoryInterface
@@ -23,7 +23,7 @@ class ServiceFactory implements ServiceFactoryInterface
         LoggerInterface $logger
     ): LocationFinderServiceInterface {
         try {
-            $httpClient = HttpClientDiscovery::find();
+            $httpClient = Psr18ClientDiscovery::find();
         } catch (NotFoundException $exception) {
             throw ServiceExceptionFactory::create($exception);
         }

@@ -26,14 +26,8 @@ use Psr\Log\LoggerInterface;
 
 class HttpServiceFactory implements ServiceFactoryInterface
 {
-    /**
-     * @var ClientInterface
-     */
-    private $httpClient;
-
-    public function __construct(ClientInterface $httpClient)
+    public function __construct(private readonly ClientInterface $httpClient)
     {
-        $this->httpClient = $httpClient;
     }
 
     public function createLocationFinderService(

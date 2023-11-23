@@ -19,7 +19,6 @@ class LocationFinderServiceTestExpectation
     /**
      * Assert method arguments were passed properly to request query parameters.
      *
-     * @param RequestInterface $request
      * @param string|null $service
      * @param string|null $countryCode
      * @param string|null $postalCode
@@ -59,7 +58,7 @@ class LocationFinderServiceTestExpectation
         $queryParts = explode('&', $query);
         $queryParams = [];
         foreach ($queryParts as $queryPart) {
-            list($key, $value) = explode('=', $queryPart);
+            [$key, $value] = explode('=', $queryPart);
             $queryParams[$key] = $value;
         }
 
@@ -72,9 +71,6 @@ class LocationFinderServiceTestExpectation
 
     /**
      * Assert that there was an error logged for error responses
-     *
-     * @param \Throwable $exception
-     * @param TestLogger $logger
      */
     public static function assertExceptionLogged(\Throwable $exception, TestLogger $logger): void
     {
@@ -84,10 +80,6 @@ class LocationFinderServiceTestExpectation
 
     /**
      * Assert that error communication was logged
-     *
-     * @param string $responseJson
-     * @param RequestInterface $request
-     * @param TestLogger $logger
      */
     public static function assertErrorLogged(string $responseJson, RequestInterface $request, TestLogger $logger): void
     {
@@ -104,10 +96,6 @@ class LocationFinderServiceTestExpectation
 
     /**
      * Assert that successful communication was logged
-     *
-     * @param string $responseJson
-     * @param RequestInterface $request
-     * @param TestLogger $logger
      */
     public static function assertCommunicationLogged(
         string $responseJson,
@@ -128,12 +116,11 @@ class LocationFinderServiceTestExpectation
     /**
      * Assert that all response objects have been converted and the data is in the correct places
      *
-     * @param string $jsonResponse
      * @param LocationInterface[] $result
      */
     public static function assertLocationsMapped(string $jsonResponse, array $result): void
     {
-        $response = json_decode($jsonResponse, false);
+        $response = json_decode($jsonResponse, false, 512, JSON_THROW_ON_ERROR);
         foreach ($response->locations as $key => $apiLocation) {
             $location = $result[$key];
             Assert::assertEquals($apiLocation->location->ids[0]->locationId, $location->getId());

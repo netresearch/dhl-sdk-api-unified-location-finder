@@ -10,27 +10,15 @@ namespace Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType;
 
 class Geo
 {
-    /**
-     * @var string
-     */
-    private $latitude;
+    private string $latitude = '';
 
-    /**
-     * @var string
-     */
-    private $longitude;
+    private string $longitude = '';
 
-    /**
-     * @return string
-     */
     public function getLatitude(): string
     {
         return $this->latitude;
     }
 
-    /**
-     * @return string
-     */
     public function getLongitude(): string
     {
         return $this->longitude;

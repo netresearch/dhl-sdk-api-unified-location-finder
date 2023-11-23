@@ -10,40 +10,22 @@ namespace Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType;
 
 class Place
 {
-    /**
-     * @var \Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType\Address
-     */
-    private $address;
+    private Address $address;
 
-    /**
-     * @var \Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType\Geo
-     */
-    private $geo;
+    private Geo $geo;
 
-    /**
-     * @var \Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType\ContainedInPlace|null
-     */
-    private $containedInPlace;
+    private ?ContainedInPlace $containedInPlace = null;
 
-    /**
-     * @return \Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType\Address
-     */
     public function getAddress(): Address
     {
         return $this->address;
     }
 
-    /**
-     * @return \Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType\Geo
-     */
     public function getGeo(): Geo
     {
         return $this->geo;
     }
 
-    /**
-     * @return \Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType\ContainedInPlace|null
-     */
     public function getContainedInPlace(): ?ContainedInPlace
     {
         return $this->containedInPlace;

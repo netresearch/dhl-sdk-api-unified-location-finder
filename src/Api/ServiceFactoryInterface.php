@@ -17,9 +17,6 @@ use Psr\Log\LoggerInterface;
 interface ServiceFactoryInterface
 {
     /**
-     * @param string $consumerKey
-     * @param LoggerInterface $logger
-     * @return LocationFinderServiceInterface
      * @throws ServiceException
      */
     public function createLocationFinderService(

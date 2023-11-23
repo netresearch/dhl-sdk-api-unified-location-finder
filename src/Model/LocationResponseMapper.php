@@ -41,28 +41,24 @@ class LocationResponseMapper
             $geo = new Geo((float) $place->getGeo()->getLongitude(), (float) $place->getGeo()->getLatitude());
 
             $openingHours = array_map(
-                function (OpeningHoursSpecification $openingHour) {
-                    return new OpeningHours(
-                        $openingHour->getDayOfWeek(),
-                        $openingHour->getCloses(),
-                        $openingHour->getOpens(),
-                        '',
-                        ''
-                    );
-                },
+                fn(OpeningHoursSpecification $openingHour): OpeningHours => new OpeningHours(
+                    $openingHour->getDayOfWeek(),
+                    $openingHour->getCloses(),
+                    $openingHour->getOpens(),
+                    '',
+                    ''
+                ),
                 $apiLocation->getOpeningHours()
             );
 
             $closurePeriods = array_map(
-                function (ClosurePeriod $closurePeriod) {
-                    return new OpeningHours(
-                        '',
-                        '00:00:00',
-                        '00:00:00',
-                        $closurePeriod->getFromDate(),
-                        $closurePeriod->getToDate()
-                    );
-                },
+                fn(ClosurePeriod $closurePeriod): OpeningHours => new OpeningHours(
+                    '',
+                    '00:00:00',
+                    '00:00:00',
+                    $closurePeriod->getFromDate(),
+                    $closurePeriod->getToDate()
+                ),
                 $apiLocation->getClosurePeriods()
             );
 
@@ -74,7 +70,7 @@ class LocationResponseMapper
                 (string) $apiLocation->getLocation()->getKeywordId(),
                 $geo,
                 $address,
-                $place->getContainedInPlace() ? $place->getContainedInPlace()->getName() : '',
+                $place->getContainedInPlace() !== null ? $place->getContainedInPlace()->getName() : '',
                 $openingHours,
                 $closurePeriods,
                 $apiLocation->getServiceTypes()

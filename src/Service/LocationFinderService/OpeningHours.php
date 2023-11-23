@@ -12,43 +12,13 @@ use Dhl\Sdk\UnifiedLocationFinder\Api\Data\OpeningHoursInterface;
 
 class OpeningHours implements OpeningHoursInterface
 {
-    /**
-     * @var string
-     */
-    private $dayOfWeek;
-
-    /**
-     * @var string
-     */
-    private $closes;
-
-    /**
-     * @var string
-     */
-    private $opens;
-
-    /**
-     * @var string
-     */
-    private $validFrom;
-
-    /**
-     * @var string
-     */
-    private $validTo;
-
     public function __construct(
-        string $dayOfWeek,
-        string $closes,
-        string $opens,
-        string $validFrom,
-        string $validTo
+        private readonly string $dayOfWeek,
+        private readonly string $closes,
+        private readonly string $opens,
+        private readonly string $validFrom,
+        private readonly string $validTo
     ) {
-        $this->dayOfWeek = $dayOfWeek;
-        $this->closes = $closes;
-        $this->opens = $opens;
-        $this->validFrom = $validFrom;
-        $this->validTo = $validTo;
     }
 
     public function getDayOfWeek(): string

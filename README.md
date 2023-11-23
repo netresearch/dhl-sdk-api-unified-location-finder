@@ -8,7 +8,7 @@ The DPDHL Unified Location Finder API SDK package offers an interface to the fol
 
 ### System Requirements
 
-- PHP 7.2+ with JSON extension
+- PHP 8.1+ with JSON extension
 
 ### Package Requirements
 
@@ -34,6 +34,8 @@ The DPDHL Unified Location Finder API SDK package offers an interface to the fol
 - `php-http/mock-client`: HTTPlug mock client implementation
 - `phpstan/phpstan`: Static analysis tool
 - `squizlabs/php_codesniffer`: Static analysis tool
+- `rector/rector`: Automatic refactoring tool to help with PHP upgrades
+- `fig/log-test`: Test utilities for `psr/log`
 
 ## Installation
 
@@ -61,7 +63,7 @@ The DPDHL Unified Location Finder API SDK supports the following features:
 
 ## Public API
 
-The library's components suitable for consumption comprise of
+The library's components suitable for consumption comprise
 
 * service:
   * service factory

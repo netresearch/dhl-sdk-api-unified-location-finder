@@ -20,32 +20,23 @@ class ErrorPlugin implements Plugin
 {
     /**
      * Returns TRUE if the response contains a parsable body.
-     *
-     * @param ResponseInterface $response
-     *
-     * @return bool
      */
     private function isDetailedErrorResponse(ResponseInterface $response): bool
     {
         $contentTypes = $response->getHeader('Content-Type');
-        return $contentTypes && (strpos($contentTypes[0], 'json') !== false);
+        return $contentTypes && (str_contains($contentTypes[0], 'json'));
     }
 
     /**
      * Handles client/server errors with error messages in response body.
      *
-     * @param int $statusCode
-     * @param RequestInterface $request
-     * @param ResponseInterface $response
-     *
-     * @return void
-     *
      * @throws DetailedErrorException
+     * @throws \JsonException
      */
     private function handleDetailedError(int $statusCode, RequestInterface $request, ResponseInterface $response): void
     {
         $responseJson = (string) $response->getBody();
-        $responseData = \json_decode($responseJson, true) ?: [];
+        $responseData = \json_decode($responseJson, true, 512, JSON_THROW_ON_ERROR) ?: [];
 
         $statusText = $responseData['title'] ?? '';
         if (isset($responseData['detail'])) {
@@ -64,15 +55,11 @@ class ErrorPlugin implements Plugin
     /**
      * Handles all client/server errors when response does not contain body with error message.
      *
-     * @param int $statusCode
-     * @param RequestInterface $request
-     * @param ResponseInterface $response
      *
-     * @return void
      *
      * @throws HttpException
      */
-    private function handleError(int $statusCode, RequestInterface $request, ResponseInterface $response): void
+    private function handleError(int $statusCode, RequestInterface $request, ResponseInterface $response): never
     {
         $errorMessage = sprintf('[%s] %s', $statusCode, $response->getReasonPhrase());
         throw new HttpException($errorMessage, $request, $response);
@@ -81,19 +68,17 @@ class ErrorPlugin implements Plugin
     /**
      * Handle the request and return the response coming from the next callable.
      *
-     * @param RequestInterface $request
      * @param callable $next Next middleware in the chain, the request is passed as the first argument
-     * @param callable $first First middleware in the chain, used to to restart a request
-     *
-     * @return Promise Resolves a PSR-7 Response or fails with an Http\Client\Exception (The same as HttpAsyncClient).
+     * @param callable $first First middleware in the chain, used to restart a request
+     * @return Promise<ResponseInterface> Resolves a PSR-7 Response or fails with an Http\Client\Exception (The same as HttpAsyncClient).
      */
     public function handleRequest(RequestInterface $request, callable $next, callable $first): Promise
     {
-        /** @var Promise $promise */
+        /** @var Promise<ResponseInterface> $promise */
         $promise = $next($request);
 
         // a response is available. transform error responses into exceptions
-        $fnFulfilled = function (ResponseInterface $response) use ($request) {
+        $fnFulfilled = function (ResponseInterface $response) use ($request): ResponseInterface {
             $statusCode = $response->getStatusCode();
 
             if ($statusCode >= 400 && $statusCode < 600) {

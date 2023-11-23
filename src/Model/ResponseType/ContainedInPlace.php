@@ -10,14 +10,8 @@ namespace Dhl\Sdk\UnifiedLocationFinder\Model\ResponseType;
 
 class ContainedInPlace
 {
-    /**
-     * @var string
-     */
-    private $name;
+    private string $name = '';
 
-    /**
-     * @return string
-     */
     public function getName(): string
     {
         return $this->name;

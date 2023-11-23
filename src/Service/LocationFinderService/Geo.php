@@ -12,20 +12,8 @@ use Dhl\Sdk\UnifiedLocationFinder\Api\Data\GeoInterface;
 
 class Geo implements GeoInterface
 {
-    /**
-     * @var float
-     */
-    private $long;
-
-    /**
-     * @var float
-     */
-    private $lat;
-
-    public function __construct(float $long, float $lat)
+    public function __construct(private readonly float $long, private readonly float $lat)
     {
-        $this->long = $long;
-        $this->lat = $lat;
     }
 
     public function getLong(): float

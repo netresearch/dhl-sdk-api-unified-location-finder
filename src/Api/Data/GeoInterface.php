@@ -13,13 +13,7 @@ namespace Dhl\Sdk\UnifiedLocationFinder\Api\Data;
  */
 interface GeoInterface
 {
-    /**
-     * @return float
-     */
     public function getLong(): float;
 
-    /**
-     * @return float
-     */
     public function getLat(): float;
 }
