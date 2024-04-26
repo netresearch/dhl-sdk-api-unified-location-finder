@@ -70,11 +70,11 @@ class ErrorPlugin implements Plugin
      *
      * @param callable $next Next middleware in the chain, the request is passed as the first argument
      * @param callable $first First middleware in the chain, used to restart a request
-     * @return Promise<ResponseInterface> Resolves a PSR-7 Response or fails with an Http\Client\Exception (The same as HttpAsyncClient).
+     * @return Promise Resolves a PSR-7 Response or fails with an Http\Client\Exception (The same as HttpAsyncClient).
      */
     public function handleRequest(RequestInterface $request, callable $next, callable $first): Promise
     {
-        /** @var Promise<ResponseInterface> $promise */
+        /** @var Promise $promise */
         $promise = $next($request);
 
         // a response is available. transform error responses into exceptions
