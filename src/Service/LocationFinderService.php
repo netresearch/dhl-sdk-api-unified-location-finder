@@ -69,8 +69,8 @@ class LocationFinderService implements LocationFinderServiceInterface
         string $city = '',
         string $street = '',
         string $service = self::SERVICE_PARCEL,
-        int $radius = null,
-        int $limit = null
+        ?int $radius = null,
+        ?int $limit = null
     ): array {
         /** @var string[]|int[]|float[] $requestParams */
         $requestParams = array_filter([
@@ -90,8 +90,8 @@ class LocationFinderService implements LocationFinderServiceInterface
         float $latitude,
         float $longitude,
         string $service = self::SERVICE_PARCEL,
-        int $radius = null,
-        int $limit = null
+        ?int $radius = null,
+        ?int $limit = null
     ): array {
         /** @var string[]|int[]|float[] $requestParams */
         $requestParams = array_filter([
@@ -111,8 +111,8 @@ class LocationFinderService implements LocationFinderServiceInterface
         string $city = '',
         string $street = '',
         string $service = self::SERVICE_PARCEL,
-        int $radius = null,
-        int $limit = null
+        ?int $radius = null,
+        ?int $limit = null
     ): array {
         /** @var string[]|int[]|float[] $requestParams */
         $requestParams = array_filter([
@@ -138,8 +138,8 @@ class LocationFinderService implements LocationFinderServiceInterface
         float $latitude,
         float $longitude,
         string $service = self::SERVICE_PARCEL,
-        int $radius = null,
-        int $limit = null
+        ?int $radius = null,
+        ?int $limit = null
     ): array {
         /** @var string[]|int[]|float[] $requestParams */
         $requestParams = array_filter([

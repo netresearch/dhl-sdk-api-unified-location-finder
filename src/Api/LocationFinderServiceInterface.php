@@ -25,8 +25,6 @@ interface LocationFinderServiceInterface
     /**
      * Find pickup locations by given address for a given carrier (DHL Paket, DHL Express).
      *
-     * @param int|null $radius
-     * @param int|null $limit
      *
      * @return LocationInterface[]
      * @throws AuthenticationException
@@ -39,15 +37,13 @@ interface LocationFinderServiceInterface
         string $city = '',
         string $street = '',
         string $service = self::SERVICE_PARCEL,
-        int $radius = null,
-        int $limit = null
+        ?int $radius = null,
+        ?int $limit = null
     ): array;
 
     /**
      * Find pickup locations by given coordinates for a given carrier (DHL Paket, DHL Express).
      *
-     * @param int|null $radius
-     * @param int|null $limit
      *
      * @return LocationInterface[]
      * @throws AuthenticationException
@@ -58,15 +54,13 @@ interface LocationFinderServiceInterface
         float $latitude,
         float $longitude,
         string $service = self::SERVICE_PARCEL,
-        int $radius = null,
-        int $limit = null
+        ?int $radius = null,
+        ?int $limit = null
     ): array;
 
     /**
      * Find drop-off locations by given address for a given carrier (DHL Paket, DHL Express).
      *
-     * @param int|null $radius
-     * @param int|null $limit
      *
      * @return LocationInterface[]
      * @throws AuthenticationException
@@ -79,15 +73,13 @@ interface LocationFinderServiceInterface
         string $city = '',
         string $street = '',
         string $service = self::SERVICE_PARCEL,
-        int $radius = null,
-        int $limit = null
+        ?int $radius = null,
+        ?int $limit = null
     ): array;
 
     /**
      * Find drop-off locations by given coordinates for a given carrier (DHL Paket, DHL Express).
      *
-     * @param int|null $radius
-     * @param int|null $limit
      *
      * @return LocationInterface[]
      * @throws AuthenticationException
@@ -98,7 +90,7 @@ interface LocationFinderServiceInterface
         float $latitude,
         float $longitude,
         string $service = self::SERVICE_PARCEL,
-        int $radius = null,
-        int $limit = null
+        ?int $radius = null,
+        ?int $limit = null
     ): array;
 }

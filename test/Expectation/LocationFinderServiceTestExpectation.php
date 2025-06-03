@@ -18,28 +18,18 @@ class LocationFinderServiceTestExpectation
 {
     /**
      * Assert method arguments were passed properly to request query parameters.
-     *
-     * @param string|null $service
-     * @param string|null $countryCode
-     * @param string|null $postalCode
-     * @param string|null $city
-     * @param string|null $street
-     * @param float|null $latitude
-     * @param float|null $longitude
-     * @param int|null $radius
-     * @param int|null $limit
      */
     public static function assertQuery(
         RequestInterface $request,
-        string $service = null,
-        string $countryCode = null,
-        string $postalCode = null,
-        string $city = null,
-        string $street = null,
-        float $latitude = null,
-        float $longitude = null,
-        int $radius = null,
-        int $limit = null
+        ?string $service = null,
+        ?string $countryCode = null,
+        ?string $postalCode = null,
+        ?string $city = null,
+        ?string $street = null,
+        ?float $latitude = null,
+        ?float $longitude = null,
+        ?int $radius = null,
+        ?int $limit = null
     ): void {
         $requestParams = [
             'countryCode' => $countryCode,
