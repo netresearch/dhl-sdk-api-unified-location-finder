@@ -5,11 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## 3.3.0
 
 ### Added
 
 - Add support for PHP 8.4
+
+### Changed
+
+- Upgrade development tools: Rector to 2.x, PHPStan to 2.x, PHPUnit to 10.x
+- Update `netresearch/jsonmapper` to 5.x
+
+### Removed
+
+- Support for psr/log 1.x
 
 ## 3.2.0
 
